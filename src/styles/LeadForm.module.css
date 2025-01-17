@@ -1,0 +1,92 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    padding: 20px;
+    border-radius: 5px;
+    /*width: 425px;*/
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 963px) and (max-width: 1280px) {
+    .form {
+        min-width: 320px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .form {
+        min-width: 425px;
+        margin: 0px;
+    }
+}
+
+.form h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #333333;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.form label {
+    font-family: "Optima Nova LT", sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    color: #000000;
+    padding-bottom: 3px;
+}
+
+.form input, .form textarea {
+    padding: 11px 15px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+    font-family: "Optima Nova LT", sans-serif;
+    color: #333333;
+    font-size: 14px;   
+}
+
+/* Checkbox */
+.checkboxContainer {
+    padding-bottom: 20px;
+}
+
+.checkboxContainer label {
+    padding-left: 10px;
+}
+
+/* Submit Button */
+
+.submit {
+    background-color: #bb0000;
+    padding: 10px 12px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 5px;
+    max-width: 170px;
+    justify-self: center;
+    align-self: center;
+}
+
+.submit:hover {
+    background-color: #aa0000;
+}
+
+.submit:disabled {
+    background-color: #333333;
+}
+
+.successMessage {
+    padding-top: 10px;
+    color: green;
+}
+

@@ -1,0 +1,97 @@
+.header {
+    position: sticky;
+    top: 0; /* Sticks the header to the top of the viewport */
+    z-index: 1000; /* Ensures it appears above other elements */
+    width: 100%;
+    background-color: #f1f4f6; /* Keeps the background consistent when sticky */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a more defined sticky effect */
+}
+
+.headerContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1280px;
+    margin: 0 auto; /* Centers the container */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust based on layout */
+}
+
+@media screen and (min-width: 770px) and (max-width: 1479px) {
+    .headerContainer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .headerContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* Nav Button Styles */
+
+
+.logo {
+    width: 170px;
+}
+
+.navCTA {
+    display: none;
+}
+
+
+
+@media (min-width: 1000px) {
+    .logo {
+        width: 250px;
+    }
+    
+    .navCTA {
+        display: flex;
+        text-align: right; /* Aligns child elements to the right */
+    }
+    
+    .navCTALink {
+        text-decoration: none;
+    }
+    
+    .navCTAButton {
+        background-color: #F1F4F6 !important;
+        color: #bb0000;
+        border: none;
+        padding: 0;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .navCTAButton .navCTATopRow {
+        color: #bb0000;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .navCTABottomRow {
+        font-size: 11px;
+        margin-top: -3px;
+        font-weight: 500;
+        color: #000000;
+        letter-spacing: 2px;
+    }
+    
+    .navCTAButton span {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navCTATopRow:hover {
+        color: #000000;
+    }
+}

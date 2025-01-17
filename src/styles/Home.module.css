@@ -1,0 +1,964 @@
+/* Page Margin Styles */
+.introContainer, .bioRow, .practiceContainer, .infoContainer, .processRow, .ctaContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1280px;
+    margin: 0 auto; /* Centers the container */
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Adjust based on layout */
+}
+
+.faqRow {
+    padding: 30px 20px;
+    max-width: 1280px;  
+}
+
+/* Container Spacing */
+.bioContainer {
+    padding: 40px 20px 10px 20px;    
+}
+
+.processContainer {
+    padding: 40px 20px 10px 20px;    
+}
+
+.faqContainer {
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+@media screen and (min-width: 770px) and (max-width: 1479px) {
+    .introContainer, .bioRow, .practiceContainer, .infoContainer, .processRow, .ctaContainer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .bioContainer {
+        padding: 60px 60px 10px 60px;    
+    }
+
+    .processContainer {
+        padding: 40px 60px 10px 60px;    
+    }
+
+    .faqRow {
+        padding-left: 60px;
+        padding-right: 60px; 
+    }
+
+    .faqContainer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .introContainer, .bioRow, .practiceContainer, .infoContainer, .processRow, .ctaContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.ladyJusticeContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1479px) {
+    .ladyJusticeContainer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .ladyJusticeContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* Font Styling */
+.title {
+    color: #2b2b31;
+    font-size: 30px;
+    line-height: 42px;
+    padding-bottom: 25px;
+}
+
+.titleSubheading {
+    color: #bb0000;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.introCopy {
+    font-size: 17px;
+}
+
+.sectionHeading {
+    color: #2b2b31;
+    font-size: 28px;
+    line-height: 32.5px;
+    font-weight: 300;
+}
+
+.sectionSubheading {
+    color: #bb0000;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 0;
+}
+
+.clientMetric {
+    font-size: 28px;
+    line-height: 40px;
+    color: #bb0000;
+    font-family: "Optima Nova LT", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.clientLabel {
+    font-size: 13px; /* Adjust for desired size */
+    margin-top: 0px; /* Adds spacing between the metric and label */
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bioHeading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nickBio {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.nickBio a {
+    color:#007B8B;
+}
+
+.nickBio a:hover {
+    color: #bb0000;
+}
+.aboutIconItem p {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #333; /* Adjust text color as needed */
+    padding-top: 10px;
+    line-height: 1.2; /* Set a consistent line-height to avoid misalignment */
+    text-align: center;
+}
+
+/* Practice Areas */
+.practiceHeading {
+    padding-top: 10px;
+}
+
+.practiceCard h3 {
+    font-size: 20px;
+    color: #202020;
+    font-weight: 500;
+    padding: 5px 0 0 0;
+}
+
+.practiceCard p {
+    font-size: 16px;
+}
+
+.practiceCard span {
+    font-size: 13px;
+    color: #bb0000;
+}
+
+.practiceCard p a {
+    color: #007B8B;
+}
+
+.practiceCard p a:hover {
+    color: #bb0000;
+}
+
+/* Info Section */
+.infoHeading {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.infoContent p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Criminal Process Section */
+.processIcon {
+    width: 40px;
+    height: auto;
+}
+
+.processHeadingWrap h3 {
+    font-family: 'Optima Nova LT', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+/* Accordion */
+.FAQTitleRow h3, .FAQTitleRow h2 {
+    text-align: center;
+}
+
+.FAQTitleRow h2 {
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1479px) {
+    .sectionHeading {
+        font-size: 32px;
+    }
+
+    .title {
+        font-size: 48px;
+        font-weight: 500;
+    }
+
+    .titleSubheading {
+        font-size: 19px;
+    }
+
+    .introCopy, .nickBio {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    .practiceCard h3 {
+        font-size: 24px;
+    }
+
+    .aboutIconItem p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .sectionHeading {
+        font-size: 36px;
+    }
+
+    .sectionSubheading {
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .title {
+        font-size: 48px;
+        font-weight: 500;
+    }
+
+    .titleSubheading {
+        font-size: 19px;
+    }
+
+    .introCopy, .nickBio {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    .practiceCard h3 {
+        font-size: 26px;
+    }
+
+    .aboutIconItem p {
+        font-size: 16px;
+    }
+}
+
+/* ================================ */
+
+/* Spacing */
+
+/* ================================ */
+
+/* Intro Section */
+
+.introContainer {
+    padding-top: 10px;
+}
+
+.metricsRow {  
+    display: flex;
+    justify-content: center; 
+    row-gap: 10px; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.metricItem {
+    width: 50%;
+}
+
+.introContainer p {
+    padding-bottom: 30px;
+}
+
+.introButton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Bio Section */
+.bioRow {
+    margin: 30px 0;
+}
+
+.aboutIconGrid {
+    display: flex;
+    justify-content: space-between; /* Ensure even spacing between items */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.aboutIconItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 50%;
+}
+
+/* Practice Areas */
+.practiceHeadingDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.practiceRow {
+    padding: 30px 0;
+}
+
+.practiceCardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.practiceCard {
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+
+.practiceCard p {
+    padding: 10px 0 20px 0;
+}
+
+.blockEnd {
+    margin: 30px 0 20px 0;
+}
+
+/* Info Section */
+.infoImage {
+    width: 70px;
+    height: auto;
+    justify-self: center;
+    padding-bottom: 20px;
+}
+
+.infoHeading {
+    padding-bottom: 15px;
+}
+
+.infoButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Criminal Process */
+.processHeadingContainer h2 {
+    padding-top: 10px;
+}
+
+.processContentBlock {
+    padding-bottom: 20px;
+}
+
+.processStepHeadingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 15px;
+}
+
+.processIcon {
+    display: inline-block;   
+    padding-right: 9px;
+}
+
+.processHeadingWrap {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin: 0; 
+    height: 100%; 
+}
+
+.processHeadingWrap h3 {
+    padding: 0;
+}
+
+/* Call to Action Section */
+.ctaRow {
+    padding: 20px 0 30px 0;
+}
+
+.ctaHeading {
+    padding-top: 10px;
+}
+
+.ctaCopyBlock {
+    padding-bottom: 20px;
+}
+
+/* FAQ Container */
+.FAQButtonContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1479px) {
+    /* -------------------------- */
+    
+            /* Spacing */
+
+    /* -------------------------- */
+    /* Intro Section */
+    .introRow {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .title {
+        padding-top: 10px;
+        padding-bottom: 35px;
+    }
+
+    .introButtonRow {
+        padding-bottom: 20px;
+    }
+
+    /* Bio Section */
+    .bioContainer .sectionHeading {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .bioContainer .aboutIconGrid {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* Practice Areas */
+    .practiceCard {
+        padding: 20px 30px;
+    }
+
+    .blockEnd {
+        margin-top: 10px;
+    }
+
+    /* Info Section */
+    .infoRow {
+        padding: 30px 0;
+    }
+
+    /* Criminal Process */
+    .processRow {
+        padding-top: 0;
+        padding-bottom: 40px; 
+    }
+
+    /* FAQ */
+    .faqRow {
+        padding-bottom: 60px;
+    }
+
+    /* -------------------------- */
+    
+        /* Layout */
+
+    /* -------------------------- */
+    /* Intro section */
+    .metricsRow {
+        display: flex;
+        justify-content: space-between; /* Ensure even spacing between items */
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .metricItem {
+        width: 25%; /* Adjust width to account for the gap */
+        box-sizing: border-box; /* Include padding/borders in the width */
+        text-align: center; /* Center-align content */
+    }
+
+    /* Bio section */
+    .aboutIconGrid {
+        display: flex;
+        justify-content: space-between; /* Ensure even spacing between items */
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .aboutIconItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+        width: 33%;
+    }
+
+    /* Practice Areas */
+    .practiceCardContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px 30px;
+    }
+
+    .practiceCard {
+        display: flex;
+        flex-direction: column;
+        width: calc(50% - 15px);
+        min-height: 100px;
+    }
+
+    /* Info Section */
+    .infoContent p {
+        max-width: 600px;
+    }
+
+    /* Call to Action */
+    .ctaTitleRow {
+        width: 100%;
+    }
+
+    .ctaFormContainer {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+/* -------------------------- */
+    
+    /* Spacing */
+
+/* -------------------------- */
+/* Intro Section */
+    .sectionSubheading {
+        padding-bottom: 5px;
+    }
+
+    .introRow {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .title {
+        padding-top: 10px;
+        padding-bottom: 35px;
+    }
+
+    .introButtonRow {
+        padding-bottom: 20px;
+    }
+
+    /* Bio Section */
+    .bioContainer {
+        padding: 60px 60px 10px 60px;
+    }
+
+    .bioContainer .sectionHeading {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .bioContainer .aboutIconGrid {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* Practice Areas */
+    .practiceCard {
+        padding: 20px 30px;
+    }
+
+    .blockEnd {
+        margin-top: 10px;
+    }
+
+    /* Info Section */
+    .infoRow {
+        padding: 30px 0;
+    }
+
+    /* Criminal Process */
+    .processRow {
+        padding-top: 0;
+        padding-bottom: 40px; 
+    }
+
+    .processContainer {
+        padding: 60px 60px 40px 60px;
+    }
+
+    .processHeadingContainer h2, .practiceHeadingDiv h2 {
+        padding-bottom: 40px;
+    }
+
+    /* CTA Section */
+    .ctaTitleRow h2 {
+        padding-bottom: 25px;
+    }
+
+
+    /* FAQ */
+    .faqRow {
+        padding-bottom: 60px;
+        margin: 30px 0 40px 0;
+    }
+
+    .faqContainer {
+        padding: 60px;
+    }
+
+    .FAQTitleRow  h2 {
+        padding-bottom: 30px;
+    }
+
+
+    
+    /* -------------------------- */
+    
+        /* Layout */
+
+    /* -------------------------- */
+    /* Intro Section */
+    .introRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featureRow {
+        display: flex;
+        max-width: 1280px;
+        justify-content: center;
+    }
+
+    .metricsRow {
+        justify-content: space-between; /* Ensure even spacing between items */
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+    .metricItem {
+        width: 25%; /* Adjust width to account for the gap */
+        box-sizing: border-box; /* Include padding/borders in the width */
+        text-align: center; /* Center-align content */
+    }
+
+    .ladyJustice {
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        object-position: top;
+    }
+
+    .introContainer, .ladyJusticeContainer {
+        width: 50%;
+    }
+
+    .ladyJusticeContainer {
+        padding-left: 60px;
+    }
+
+    /* Bio Section */
+    .bioRow {
+        justify-self: center;
+    }
+
+    .aboutIconGrid {
+        display: flex;
+        justify-content: space-between; /* Ensure even spacing between items */
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .aboutIconItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+        width: 33%;
+    }
+
+    /* Practice Areas */
+    .practiceCardContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px 30px;
+    }
+
+    .practiceCard {
+        display: flex;
+        flex-direction: column;
+        width: calc(33.3% - 20px);
+        min-height: 100px;
+    }
+
+    /* Info Section */
+    .infoContainer {
+        flex-direction: row;
+        gap: 15px 30px;
+    }
+
+    .infoColumn {
+        width: calc(33.3% - 20px);
+    }
+
+    /* Criminal Process */
+    .processContainer article {
+        display: flex;
+        flex-direction: row;
+        gap: 15px 30px;
+    }
+
+    .processPhotoContainer, .processContentContainer {
+        width: 50%;
+    }
+
+    /* CTA Section*/
+    .ctaContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .ctaCopySection {
+        padding-right: 60px;
+    }
+
+    .ctaFormContainer form {
+        width: 500px;
+    }
+
+    /* FAQ Section */
+    .faqRow {
+        justify-self: center;
+        width: 1280px;
+        padding: 0;
+    }
+
+
+}
+
+
+/* ================================ */
+
+/* Component Styling */
+
+/* ================================ */
+
+/* Intro Section */
+
+.introButton {
+    color: #ffffff;
+    background-color: #bb0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+}
+
+.introButton:hover {
+    background-color: #990000;
+}
+
+.ladyJustice {
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Bio Section */
+
+.bioContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(45deg, #ffffff 0%, #f6f6f6 100%);
+    border: 2px solid #ffffff;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.18);
+}
+
+.aboutIcon {
+    width: 35px;
+    height: auto;
+}
+
+/* Practice Areas */
+.practiceCard {
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.18);
+    background: linear-gradient(45deg, #ffffff 0%, #f6f6f6 100%);
+    border: 2px solid #ffffff;
+}
+
+.blockEnd {
+    background: #BB0000;
+    border: 0;
+    height: 1px;
+    width: 50px;
+}
+
+/* Info Section */
+.infoButton {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+/* Criminal Process */
+.processContainer {
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.18);
+    background: linear-gradient(45deg, #ffffff 0%, #f6f6f6 100%);
+    border: 2px solid #ffffff;
+}
+
+.processImage {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 30px 0;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.18);
+
+}
+
+/* Accordion */
+.faqContainer {
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.18);
+    background: linear-gradient(45deg, #ffffff 0%, #f6f6f6 100%);
+    border: 2px solid #ffffff;
+}
+
+.faqButton {
+    color: #ffffff;
+    background-color: #bb0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+}
+    
+.faqButton:hover {
+    background-color: #990000;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1479px) {
+/* Image Sizing */
+    .aboutIcon {
+        width: 45px;
+        height: auto;
+    }
+
+    .ladyJustice {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        object-position: top;
+    }
+
+}
+
+
+@media screen and (min-width: 1480px) {
+
+    .aboutIcon {
+        width: 50px;
+        height: auto;
+    }
+}
+
+.headingContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.leftHeadingContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.criminalProcessh2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+/* Map Styles */
+.mapContainer {
+    display: flex;
+    justify-content: center; /* Horizontally center the map */
+    align-items: center; /* Vertically center the content */
+    width: 100%;
+  }
+
+.map {
+    margin-top: 30px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1000px) {
+    .mapContainer {
+        justify-content: flex-start;
+    }
+    
+    .map {
+      width: 100%; /* Width adjusts automatically */
+      height: 350px; /* Takes up remaining height of the container */
+    }
+  }
+
+  .handshakePhoto {
+    margin-top: 20px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  }
