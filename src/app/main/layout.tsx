@@ -4,7 +4,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import CalendlyWidget from "../components/CalendlyButton";
 //import Script from "next/script"; // Import Script from Next.js
 //import CalendlyPopupButton from "./components/CalendlyPopupButton";
-import "./globals.css"
+import "../globals.css";
 import type { Metadata } from "next";
 
 //import { PopupButton } from "react-calendly";

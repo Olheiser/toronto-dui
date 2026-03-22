@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "@/styles/Subpage.module.css";
-import LeadForm from "../components/LeadForm";
-import PageHeader from "../components/PageHeader";
+import LeadForm from "../../components/LeadForm";
+import PageHeader from "../../components/PageHeader";
 import Link from "next/link";
 
 import type { Metadata } from "next";
