@@ -280,3 +280,750 @@
 .faqPageContainer button {
     color: white;
 }
+
+/* New Styles */
+
+.pageContent h2 {
+    color: #bb0000;
+    font-size: 2.5rem;
+}
+
+.pageContent h4 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PPC Cards */
+/* ================ */
+
+.ppcCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Individual card styling */
+.ppcCard {
+  background: #ffffff; /* Light background */
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover effect */
+.ppcCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  filter: brightness(8);
+  transition: filter 0.3s;
+}
+
+/* Card heading */
+.ppcCard h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Responsive: Stack to 1 column on mobile */
+@media (max-width: 768px) {
+  .ppcCards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .ppcCard {
+    padding: 1.2rem;
+  }
+  
+  .ppcCard h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Icon styling */
+.aboutIcon {
+  flex-shrink: 0; /* Prevents icon from shrinking */
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+/* DUI SERVICES */
+/* ======================= */
+/* Mobile-first styles */
+.duiSection {
+  width: 100%;
+  background-color: #0a0a0a; /* Dark background */
+  padding: 3rem 1rem;
+  position: relative;
+}
+
+.duiContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Grid layout - mobile: 1 column */
+.duiGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* Card styles */
+.duiCard {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  min-height: 280px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Dark overlay for better text contrast */
+.duiCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)
+  );
+  z-index: 1;
+  transition: background 0.3s;
+}
+
+/* Hover effect - darken overlay */
+.duiCard:hover::before {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+.duiCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Text styling - positioned 1/3 from bottom */
+.duiCard h3 {
+  position: absolute;
+  bottom: 33%; /* 1/3 from bottom */
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0 1rem;
+  z-index: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  line-height: 1.4;
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 768px) {
+  .duiSection {
+    padding: 4rem 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .duiGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .duiCard {
+    min-height: 320px;
+  }
+  
+  .duiCard h3 {
+    font-size: 1.3rem;
+    bottom: 30%;
+  }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 1024px) {
+  .duiGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .duiCard {
+    min-height: 350px;
+  }
+  
+  .duiCard h3 {
+    font-size: 1.4rem;
+    bottom: 33%;
+  }
+}
+
+.card1 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/37bfa81c-8140-4ffc-aa6e-3f042a2d2800/public'); }
+.card2 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/bda1ecb9-f2c3-4f74-bfa6-c14e3e61ae00/public'); }
+.card3 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/c74c0944-f1fc-4820-49b1-d59563a17200/public'); }
+.card4 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/f231dc28-3126-4dcb-1eb6-b19d12d3ff00/public'); }
+.card5 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/a5a63c07-5a9f-43ac-7205-497635a31300/public'); }
+.card6 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/2ac8fae6-9753-48bd-e020-e47c74bd7100/public'); }
+.card7 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/5b94a4f9-d82a-499b-0041-bc9b838e6400/public'); }
+.card8 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/5fcf3e6b-d91e-4fd1-1586-c2634e645a00/public'); }
+.card9 { background-image: url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/06db72fb-bcab-4782-17e4-465e06395d00/public'); }
+
+
+
+
+
+
+/* WHY HIRE DUI */
+/* ============== */
+/* Mobile-first styles */
+.duiLawyerSection {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 3rem 1rem;
+}
+
+.splitContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Image Wrapper - Mobile (full width, above text) */
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  object-fit: cover;
+}
+
+/* Content Wrapper - Mobile */
+.contentWrapper {
+  flex: 1;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0a0a0a;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.introText {
+  margin-bottom: 2rem;
+}
+
+.introText p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.consequencesList {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.consequencesList li {
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #333;
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.consequencesList li::before {
+  content: "•";
+  color: #b41e1e;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Benefits Grid - Mobile (stacked) */
+.benefitsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.benefitItem {
+  background: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.benefitItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.benefitItem h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #b41e1e;
+  margin-bottom: 0.75rem;
+}
+
+.benefitItem p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Tablet Styles (min-width: 768px) */
+@media (min-width: 768px) {
+  .duiLawyerSection {
+    padding: 4rem 2rem;
+  }
+  
+  .imageWrapper {
+    height: 400px;
+  }
+  
+  .sectionTitle {
+    font-size: 2.25rem;
+    text-align: left;
+  }
+  
+  .introText p {
+    font-size: 1rem;
+  }
+  
+  .consequencesList li {
+    font-size: 0.95rem;
+  }
+  
+  .benefitItem {
+    padding: 1.5rem;
+  }
+  
+  .benefitItem h3 {
+    font-size: 1.35rem;
+  }
+  
+  .benefitItem p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Desktop Styles (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .splitContainer {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 3rem;
+  }
+  
+  .imageWrapper {
+    flex: 1;
+    height: auto;
+    min-height: 500px;
+    position: sticky;
+    top: 100px;
+  }
+  
+  .contentWrapper {
+    flex: 1;
+  }
+  
+  .sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .introText {
+    margin-bottom: 2.5rem;
+  }
+  
+  .introText p {
+    font-size: 1.05rem;
+  }
+  
+  .consequencesList li {
+    font-size: 1rem;
+    padding: 0.6rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .benefitsGrid {
+    gap: 2rem;
+  }
+  
+  .benefitItem h3 {
+    font-size: 1.4rem;
+  }
+  
+  .benefitItem p {
+    font-size: 1rem;
+  }
+}
+
+/* Large Desktop Styles (min-width: 1440px) */
+@media (min-width: 1440px) {
+  .splitContainer {
+    max-width: 1400px;
+    gap: 4rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2.75rem;
+  }
+  
+  .introText p {
+    font-size: 1.1rem;
+  }
+  
+  .benefitItem h3 {
+    font-size: 1.5rem;
+  }
+  
+  .benefitItem p {
+    font-size: 1.05rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FAQ Element */
+
+.faqRow {
+    padding: 30px 20px;
+    max-width: 1280px;  
+}
+
+.faqContainer {
+    padding-top: 30px;
+    padding-bottom: 30px; 
+box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.18);
+    background: linear-gradient(45deg, #ffffff 0%, #f6f6f6 100%);
+    border: 2px solid #ffffff;
+}
+
+.FAQTitleRow h3, .FAQTitleRow h2 {
+    text-align: center;
+}
+
+.FAQTitleRow h2 {
+    padding-top: 10px;
+}
+
+.sectionSubheading {
+    color: #bb0000;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 0;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1479px) {
+.faqRow {
+        padding-left: 60px;
+        padding-right: 60px; 
+padding-bottom: 60px;
+    }
+
+    .faqContainer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+.sectionHeading {
+        font-size: 32px;
+padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1480px) {
+.faqRow {
+        padding-bottom: 60px;
+        margin: 30px 0 40px 0;
+	justify-self: center;
+        width: 1280px;
+        padding: 0;
+    }
+
+.faqContainer {
+        padding: 60px;
+    }
+
+.FAQTitleRow  h2 {
+        padding-bottom: 30px;
+    }
+
+.headingContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sectionHeading {
+    color: #2b2b31;
+    font-size: 28px;
+    line-height: 32.5px;
+    font-weight: 300;
+}
+
+.sectionHeading {
+        font-size: 36px;
+padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+.sectionSubheading {
+        font-size: 19px;
+        font-weight: 500;
+padding-bottom: 5px;
+    }
+}
+
+/* Contact Section */
+/* ======================== */
+/* Mobile-first styles (default for all screen sizes) */
+.contactSection {
+  width: 100%;
+  position: relative;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Toronto_Skyline_Summer_2020.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Remove background-attachment on mobile for better performance */
+}
+
+/* Red tint overlay */
+.contactOverlay {
+  background: rgba(180, 30, 30, 0.85);
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+/* Container for content */
+.contactContainer {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Logo Styles - Mobile */
+.logoWrapper {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+}
+
+/* Heading Styles - Mobile */
+.contactHeading {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  line-height: 1.3;
+}
+
+/* Paragraph Styles - Mobile */
+.contactParagraph {
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 0 0.5rem;
+}
+
+/* Form Styles - Mobile (override imported form) */
+.contactContainer :global(.form) {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  margin: 0 auto;
+  border-top: 3px solid #b41e1e;
+}
+
+/* Tablet Styles (min-width: 768px) */
+@media (min-width: 768px) {
+  .contactOverlay {
+    padding: 4rem 2rem;
+  }
+  
+  .contactContainer {
+    max-width: 90%;
+  }
+  
+  .logoWrapper {
+    margin-bottom: 2rem;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  
+  .contactHeading {
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .contactParagraph {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contactContainer :global(.form) {
+    padding: 2rem;
+    border-radius: 14px;
+    max-width: 90%;
+  }
+}
+
+/* Desktop Styles (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .contactOverlay {
+    padding: 5rem 2rem;
+    /* Add parallax effect only on desktop for performance */
+    background-attachment: fixed;
+  }
+  
+  .contactContainer {
+    max-width: 800px;
+  }
+  
+  .logo {
+    width: 220px;
+  }
+  
+  .contactHeading {
+    font-size: 2.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contactParagraph {
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+  }
+  
+  .contactContainer :global(.form) {
+    padding: 2.5rem;
+    border-radius: 16px;
+    max-width: 600px;
+  }
+}
+
+/* Large Desktop Styles (min-width: 1440px) */
+@media (min-width: 1440px) {
+  .contactOverlay {
+    padding: 6rem 2rem;
+  }
+  
+  .contactContainer {
+    max-width: 1000px;
+  }
+  
+  .logo {
+    width: 250px;
+  }
+  
+  .contactHeading {
+    font-size: 3rem;
+  }
+  
+  .contactParagraph {
+    font-size: 1.25rem;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contactContainer :global(.form) {
+    max-width: 700px;
+    padding: 3rem;
+  }
+}

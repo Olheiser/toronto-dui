@@ -1,12 +1,10 @@
-//import Header from "./components/Header";
-//import Footer from "./components/Footer";
-//import ScrollToTop from "./components/ScrollToTop";
-//import CalendlyWidget from "./components/CalendlyButton";
-
-
+import AdNav from "../components/AdNav";
+import AdFooter from "../components/AdFooter";
+import ScrollToTop from "../components/ScrollToTop";
+import CalendlyWidget from "../components/CalendlyButton";
 //import Script from "next/script"; // Import Script from Next.js
 //import CalendlyPopupButton from "./components/CalendlyPopupButton";
-import "./globals.css"
+import "../globals.css"
 import type { Metadata } from "next";
 
 //import { PopupButton } from "react-calendly";
@@ -18,12 +16,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+      <>
+        <AdNav />
+         {/* <PageHeader title="About" /> */}
+        {children}
+        <ScrollToTop />
+        <CalendlyWidget /> 
+        {/* <CalendlyPopupButton />*/}
+        <AdFooter />
+      </>
   );
 }
