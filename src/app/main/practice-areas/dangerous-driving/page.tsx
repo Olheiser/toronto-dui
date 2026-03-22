@@ -4,7 +4,7 @@ import LeadForm from "../../../components/LeadForm";
 import PageHeader from "../../../components/PageHeader";
 import Link from "next/link";
 
-import type { Metadata } from "next";
+import Metadata from "next";
 
 export const metadata: Metadata = {
   title: "Dangerous Driving | Toronto Impaired Driving Lawyer",

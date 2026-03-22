@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "@/styles/Subpage.module.css";
+import styles from "../../../styles/Subpage.module.css";
 //import updateStyles from "@/styles/Ad.module.css";
 import LeadForm from "../../components/LeadForm";
 import Image from "next/image";
@@ -12,7 +12,7 @@ import logo from "../../../../public/logo-white-type.png";
 import pro from "../../../../public/professional.jpg";
 import AdForm from "@/app/components/AdForm";
 
-import type { Metadata } from "next";
+import Metadata from "next";
 
 export const metadata: Metadata = {
   title: "Nicholas Robinson | Toronto Impaired Driving Lawyer",
