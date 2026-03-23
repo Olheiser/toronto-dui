@@ -11,7 +11,7 @@ import FAQAccordion from "@/app/components/FAQAccordion";
 import logo from "../../../../public/logo-white-type.png";
 import pro from "../../../../public/professional.jpg";
 import AdForm from "@/app/components/AdForm";
-
+// test
 import type { Metadata } from "next";  // ← Keep this one only
 
 export const metadata: Metadata = {
