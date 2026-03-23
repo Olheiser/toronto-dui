@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
-import CalendlyWidget from "../components/CalendlyButton";
+// import CalendlyWidget from "../components/CalendlyButton";
 //import Script from "next/script"; // Import Script from Next.js
 //import CalendlyPopupButton from "./components/CalendlyPopupButton";
 import "../globals.css";
@@ -25,7 +25,7 @@ export default function RootLayout({
          {/* <PageHeader title="About" /> */}
         {children}
         <ScrollToTop />
-        <CalendlyWidget /> 
+        {/*<CalendlyWidget /> */} 
         {/* <CalendlyPopupButton />*/}
         <Footer />
     </>

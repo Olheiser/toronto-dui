@@ -1,7 +1,7 @@
-"use client"
+/*"use client"
 
 import React, { useEffect, useState } from 'react';
-import { PopupWidget } from 'react-calendly';
+//import { PopupWidget } from 'react-calendly';
 
 const CalendlyWidget = () => {
     const [rootElement, setRootElement] = useState<HTMLElement | null>(null);
@@ -29,4 +29,4 @@ const CalendlyWidget = () => {
       );
     };
 
-export default CalendlyWidget;
+export default CalendlyWidget;*/
