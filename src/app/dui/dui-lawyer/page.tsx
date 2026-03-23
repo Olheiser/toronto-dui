@@ -215,7 +215,7 @@ export default function Page() {
 
           {/* Paragraph */}
           <p className={styles.contactParagraph}>
-            With 14+ years of DUI defence experience, Nicholas Robinson is one of Toronto&apos; most trusted impaired driving lawyers. He has a proven track record of success in trials and negotiations, helping clients avoid license suspensions, fines, and criminal records. Serving Toronto and the GTA, Nicholas provides aggressive, strategic defence when you need it most.
+            With 14+ years of DUI defence experience, Nicholas Robinson is one of Toronto&apos; most trusted impaired driving lawyers. He has a proven track record of success in trials and negotiations, helping clients avoid licence suspensions, fines, and criminal records. Serving Toronto and the GTA, Nicholas provides aggressive, strategic defence when you need it most.
           </p>
 
           {/* Form */}
