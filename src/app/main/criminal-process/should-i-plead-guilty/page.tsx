@@ -3,7 +3,7 @@ import styles from "@/styles/Subpage.module.css";
 import LeadForm from "../../../components/LeadForm";
 import PageHeader from "../../../components/PageHeader";
 
-import Metadata from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Should I Plead Guilty? | Toronto Impaired Driving Lawyer",

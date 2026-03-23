@@ -12,7 +12,7 @@ import logo from "../../../../public/logo-white-type.png";
 import pro from "../../../../public/professional.jpg";
 import AdForm from "@/app/components/AdForm";
 
-import Metadata from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Nicholas Robinson | Toronto Impaired Driving Lawyer",

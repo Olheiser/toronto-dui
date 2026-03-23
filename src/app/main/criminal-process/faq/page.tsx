@@ -4,7 +4,7 @@ import LeadForm from "../../../components/LeadForm";
 import PageHeader from "../../../components/PageHeader";
 import FAQAccordion from "@/app/components/FAQAccordion";
 
-import Metadata from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions | Toronto Impaired Driving Lawyer",

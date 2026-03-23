@@ -4,7 +4,7 @@ import LeadForm from "../../../components/LeadForm";
 import PageHeader from "../../../components/PageHeader";
 import Link from "next/link";
 
-import Metadata from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Failure to Stop at an Accident | Toronto Impaired Driving Lawyer",

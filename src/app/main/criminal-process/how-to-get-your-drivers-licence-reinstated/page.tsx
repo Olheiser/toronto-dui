@@ -3,7 +3,7 @@ import styles from "@/styles/Subpage.module.css";
 import LeadForm from "../../../components/LeadForm";
 import PageHeader from "../../../components/PageHeader";
 
-import Metadata from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "How to Get Your Driver's Licence Reinstated | Toronto Impaired Driving Lawyer",
