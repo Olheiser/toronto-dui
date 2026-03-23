@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 
 import React, { useEffect, useState } from 'react';
 import { PopupButton  } from 'react-calendly';
@@ -27,4 +27,4 @@ const CalendlyPopupButton = () => {
       );
     };
 
-export default CalendlyPopupButton;
+export default CalendlyPopupButton;*/
