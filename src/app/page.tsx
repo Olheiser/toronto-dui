@@ -281,11 +281,11 @@ export default async function Home() {
       <section className={styles.bioRow}>
         <article className={styles.bioContainer}>
           <div className={styles.headingContainer}>
-          <h2 className={`${styles.sectionHeading} ${styles.bioHeading}`}><Link href="/practice-areas">Nicholas Robinson, Toronto Impaired Driving Lawyer</Link></h2>
+          <h2 className={`${styles.sectionHeading} ${styles.bioHeading}`}><Link href="/main/practice-areas">Nicholas Robinson, Toronto Impaired Driving Lawyer</Link></h2>
           <h3 className={styles.sectionSubheading}>Legal Service With Compassion</h3>
           
           </div>
-          <p className={styles.nickBio}>Nicholas Robinson is an experienced impaired driving lawyer who has been successfully defending clients across Canada since 2009. Renowned for his approachable style, unwavering dedication, and focus on ensuring clients feel valued and well-represented, Nicholas delivers strategic and compassionate DUI legal defence tailored to each case. His expertise spans a broad spectrum of <Link href="/practice-areas/impaired-driving">DUI charges</Link>, including <Link href="/practice-areas/impaired-driving">impaired driving</Link>, <Link href="/practice-areas/driving-over-08">driving over .08</Link>, <Link href="/practice-areas/refusing-a-breathalyzer-or-drug-test">refusing a breathalyzer or drug test</Link>, <Link href="/penalties-and-sentencing/repeat-dui-charges">2nd DUI offence</Link>, <Link href="/penalties-and-sentencing/repeat-dui-charges">3rd DUI offence</Link>, <Link href="/penalties-and-sentencing/commercial-driver-dui">commercial driver DUI</Link>, as well as <Link href="/penalties-and-sentencing/young-and-novice-driver-dui">young and novice driver DUI</Link>.</p>
+          <p className={styles.nickBio}>Nicholas Robinson is an experienced impaired driving lawyer who has been successfully defending clients across Canada since 2009. Renowned for his approachable style, unwavering dedication, and focus on ensuring clients feel valued and well-represented, Nicholas delivers strategic and compassionate DUI legal defence tailored to each case. His expertise spans a broad spectrum of <Link href="/main/practice-areas/impaired-driving">DUI charges</Link>, including <Link href="/main/practice-areas/impaired-driving">impaired driving</Link>, <Link href="/main/practice-areas/driving-over-08">driving over .08</Link>, <Link href="/main/practice-areas/refusing-a-breathalyzer-or-drug-test">refusing a breathalyzer or drug test</Link>, <Link href="/main/penalties-and-sentencing/repeat-dui-charges">2nd DUI offence</Link>, <Link href="/main/penalties-and-sentencing/repeat-dui-charges">3rd DUI offence</Link>, <Link href="/main/penalties-and-sentencing/commercial-driver-dui">commercial driver DUI</Link>, as well as <Link href="/main/penalties-and-sentencing/young-and-novice-driver-dui">young and novice driver DUI</Link>.</p>
           <div className={styles.aboutIconGrid}>
             <div className={styles.aboutIconItem}>
               <Image 
@@ -359,116 +359,116 @@ export default async function Home() {
       <section className={styles.practiceRow}>
         <div className={styles.practiceContainer}>
           <div className={styles.leftHeadingContainer}>
-            <h2 className={`${styles.sectionHeading} ${styles.practiceHeading}`}><Link href="/practice-areas">Practice Areas</Link></h2>
+            <h2 className={`${styles.sectionHeading} ${styles.practiceHeading}`}><Link href="/main/practice-areas">Practice Areas</Link></h2>
             <h3 className={`${styles.sectionSubheading} ${styles.practiceSubheading}`}>Expert Impaired Driving Defence</h3>
             
           </div>
           <div className={styles.practiceCardContainer}>
           <article className={styles.practiceCard}>
-              <h3><Link href="/practice-areas/impaired-driving">Impaired Driving</Link></h3>
-              <p><strong><Link href="/practice-areas/impaired-driving">Impaired Driving</Link></strong> is when a person&apos;s ability to operate a vehicle is impaired by alcohol or drugs. This dangerous behavior is illegal and can result in severe penalties such as fines, license suspension, and jail time.</p>
+              <h3><Link href="/main/practice-areas/impaired-driving">Impaired Driving</Link></h3>
+              <p><strong><Link href="/main/practice-areas/impaired-driving">Impaired Driving</Link></strong> is when a person&apos;s ability to operate a vehicle is impaired by alcohol or drugs. This dangerous behavior is illegal and can result in severe penalties such as fines, license suspension, and jail time.</p>
               <span className={styles.readMore}>
-              <Link href="/practice-areas/impaired-driving">Learn more about <strong>Impaired Driving Charges</strong></Link>
+              <Link href="/main/practice-areas/impaired-driving">Learn more about <strong>Impaired Driving Charges</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
             
             <article className={styles.practiceCard}>
-              <h3><Link href="/practice-areas/refusing-a-breathalyzer-or-drug-test">Refusing a Breathalyzer or Drug Test</Link></h3>
-              <p><strong><Link href="/practice-areas/refusing-a-breathalyzer-or-drug-test">Refusing to comply with a lawful demand for a breathalyzer or drug test</Link></strong> is a criminal offence. If you refuse, you can face similar penalties to those for impaired driving, including fines and imprisonment.</p>
+              <h3><Link href="/main/practice-areas/refusing-a-breathalyzer-or-drug-test">Refusing a Breathalyzer or Drug Test</Link></h3>
+              <p><strong><Link href="/main/practice-areas/refusing-a-breathalyzer-or-drug-test">Refusing to comply with a lawful demand for a breathalyzer or drug test</Link></strong> is a criminal offence. If you refuse, you can face similar penalties to those for impaired driving, including fines and imprisonment.</p>
               <span className={styles.readMore}>
-              <Link href="/practice-areas/refusing-a-breathalyzer-or-drug-test">Learn more about <strong>Refusing a Breathalyzer or Drug Test Charges</strong></Link>
+              <Link href="/main/practice-areas/refusing-a-breathalyzer-or-drug-test">Learn more about <strong>Refusing a Breathalyzer or Drug Test Charges</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/practice-areas/driving-over-08">Driving Over .08</Link></h3>
-              <p><strong><Link href="/practice-areas/driving-over-08">Driving Over .08</Link></strong> refers to operating a vehicle with a blood alcohol concentration (BAC) of over 80 milligrams of alcohol in 100 milliliters of blood. This offence is strictly enforced and can lead to severe consequences.</p>
+              <h3><Link href="/main/practice-areas/driving-over-08">Driving Over .08</Link></h3>
+              <p><strong><Link href="/main/practice-areas/driving-over-08">Driving Over .08</Link></strong> refers to operating a vehicle with a blood alcohol concentration (BAC) of over 80 milligrams of alcohol in 100 milliliters of blood. This offence is strictly enforced and can lead to severe consequences.</p>
               <span className={styles.readMore}>
-                <Link href="/practice-areas/driving-over-08">Assault<strong>Driving Over .08 Charges</strong></Link>
+                <Link href="/main/practice-areas/driving-over-08">Assault<strong>Driving Over .08 Charges</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/practice-areas/dangerous-driving">Dangerous Driving</Link></h3>
-              <p><strong><Link href="/practice-areas/dangerous-driving">Dangerous Driving</Link></strong> occurs when a person operates a vehicle in a manner that is dangerous to the public, considering all circumstances. It includes behaviors such as excessive speeding, aggressive driving, or driving under adverse conditions.</p>
+              <h3><Link href="/main/practice-areas/dangerous-driving">Dangerous Driving</Link></h3>
+              <p><strong><Link href="/main/practice-areas/dangerous-driving">Dangerous Driving</Link></strong> occurs when a person operates a vehicle in a manner that is dangerous to the public, considering all circumstances. It includes behaviors such as excessive speeding, aggressive driving, or driving under adverse conditions.</p>
               <span className={styles.readMore}>
-               <Link href="/practice-areas/dangerous-driving">Learn more about <strong>Dangerous Driving Charges</strong></Link>
+               <Link href="/main/practice-areas/dangerous-driving">Learn more about <strong>Dangerous Driving Charges</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/practice-areas/failure-to-stop-at-an-accident">Failure to Stop at an Accident</Link></h3>
-              <p><strong><Link href="/practice-areas/failure-to-stop-at-an-accident">Failure to stop</Link></strong> at the scene of an accident, especially when someone is injured or there is significant property damage, is a serious offence. It is mandatory to stop, provide your information, and offer assistance if needed.</p>
+              <h3><Link href="/main/practice-areas/failure-to-stop-at-an-accident">Failure to Stop at an Accident</Link></h3>
+              <p><strong><Link href="/main/practice-areas/failure-to-stop-at-an-accident">Failure to stop</Link></strong> at the scene of an accident, especially when someone is injured or there is significant property damage, is a serious offence. It is mandatory to stop, provide your information, and offer assistance if needed.</p>
               <span className={styles.readMore}>
-                <a href="/practice-areas/failure-to-stop-at-an-accident">Learn more about <strong>Failure to Stop at an Accident Charges</strong>
+                <a href="/main/practice-areas/failure-to-stop-at-an-accident">Learn more about <strong>Failure to Stop at an Accident Charges</strong>
                 </a>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/practice-areas/flight-from-a-peace-officer">Flight From a Peace Officer</Link></h3>
-              <p><strong><Link href="/practice-areas/flight-from-a-peace-officer">Flight from a peace officer</Link></strong> involves fleeing from the police when signaled to stop. This act is illegal and can lead to significant legal consequences, including fines and imprisonment.</p>
+              <h3><Link href="/main/practice-areas/flight-from-a-peace-officer">Flight From a Peace Officer</Link></h3>
+              <p><strong><Link href="/main/practice-areas/flight-from-a-peace-officer">Flight from a peace officer</Link></strong> involves fleeing from the police when signaled to stop. This act is illegal and can lead to significant legal consequences, including fines and imprisonment.</p>
               <span className={styles.readMore}>
-              <Link href="/practice-areas/flight-from-a-peace-officer">Learn more about <strong>Flight From a Peace Officer Charges</strong></Link>
+              <Link href="/main/practice-areas/flight-from-a-peace-officer">Learn more about <strong>Flight From a Peace Officer Charges</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
             
             <article className={styles.practiceCard}>
-              <h3><Link href="/practice-areas/impaired-driving">1st DUI Offence</Link></h3>
-              <p>A <strong><Link href="/practice-areas/impaired-driving">first DUI Offence</Link></strong> can lead to a one-year licence suspension, fines, and mandatory education. You may also be required to install an ignition interlock device upon reinstatement.</p>
+              <h3><Link href="/main/practice-areas/impaired-driving">1st DUI Offence</Link></h3>
+              <p>A <strong><Link href="/main/practice-areas/impaired-driving">first DUI Offence</Link></strong> can lead to a one-year licence suspension, fines, and mandatory education. You may also be required to install an ignition interlock device upon reinstatement.</p>
               <span className={styles.readMore}>
-              <Link href="/practice-areas/impaired-driving">Learn more about <strong>1st DUI Offence</strong></Link>
+              <Link href="/main/practice-areas/impaired-driving">Learn more about <strong>1st DUI Offence</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/penalties-and-sentencing/repeat-dui-charges">2nd DUI Offence</Link></h3>
-              <p>A <strong><Link href="/penalties-and-sentencing/repeat-dui-charges">second DUI offence</Link></strong> within ten years results in a minimum three-year licence suspension, increased fines, and mandatory education. You&apos;ll need an ignition interlock device for at least three years.</p>
+              <h3><Link href="/main/penalties-and-sentencing/repeat-dui-charges">2nd DUI Offence</Link></h3>
+              <p>A <strong><Link href="/main/penalties-and-sentencing/repeat-dui-charges">second DUI offence</Link></strong> within ten years results in a minimum three-year licence suspension, increased fines, and mandatory education. You&apos;ll need an ignition interlock device for at least three years.</p>
               <span className={styles.readMore}>
-              <Link href="/penalties-and-sentencing/repeat-dui-charges">Learn more about <strong>2nd DUI Offence</strong></Link>
+              <Link href="/main/penalties-and-sentencing/repeat-dui-charges">Learn more about <strong>2nd DUI Offence</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/penalties-and-sentencing/repeat-dui-charges">3rd DUI Offence</Link></h3>
-              <p>A <strong><Link href="/penalties-and-sentencing/repeat-dui-charges">third DUI offence</Link></strong> can lead to a lifetime licence suspension, along with significant fines, treatment requirements, and a minimum six-year ignition interlock condition.</p>
+              <h3><Link href="/main/penalties-and-sentencing/repeat-dui-charges">3rd DUI Offence</Link></h3>
+              <p>A <strong><Link href="/main/penalties-and-sentencing/repeat-dui-charges">third DUI offence</Link></strong> can lead to a lifetime licence suspension, along with significant fines, treatment requirements, and a minimum six-year ignition interlock condition.</p>
               <span className={styles.readMore}>
-              <Link href="/penalties-and-sentencing/repeat-dui-charges">Learn more about <strong>3rd DUI Offence</strong></Link>
+              <Link href="/main/penalties-and-sentencing/repeat-dui-charges">Learn more about <strong>3rd DUI Offence</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/penalties-and-sentencing/cannabis-dui-charges">Cannabis DUI</Link></h3>
-              <p><strong><Link href="/penalties-and-sentencing/cannabis-dui-charges">Driving under the influence of cannabis</Link></strong> is treated similarly to alcohol-related DUIs. Penalties include suspensions, fines, and escalating consequences for repeat offences.</p>
+              <h3><Link href="/main/penalties-and-sentencing/cannabis-dui-charges">Cannabis DUI</Link></h3>
+              <p><strong><Link href="/main/penalties-and-sentencing/cannabis-dui-charges">Driving under the influence of cannabis</Link></strong> is treated similarly to alcohol-related DUIs. Penalties include suspensions, fines, and escalating consequences for repeat offences.</p>
               <span className={styles.readMore}>
-              <Link href="/penalties-and-sentencing/cannabis-dui-charges">Learn more about <strong>Cannabis DUI</strong></Link>
+              <Link href="/main/penalties-and-sentencing/cannabis-dui-charges">Learn more about <strong>Cannabis DUI</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/penalties-and-sentencing/young-and-novice-driver-dui">Young &amp; Novice Driver DUI</Link></h3>
-              <p><strong><Link href="/penalties-and-sentencing/young-and-novice-driver-dui">Young and novice drivers</Link></strong> face zero tolerance for alcohol or drugs. A first offence leads to a 3-day licence suspension and fines, with harsher penalties for repeated violations.</p>
+              <h3><Link href="/main/penalties-and-sentencing/young-and-novice-driver-dui">Young &amp; Novice Driver DUI</Link></h3>
+              <p><strong><Link href="/main/penalties-and-sentencing/young-and-novice-driver-dui">Young and novice drivers</Link></strong> face zero tolerance for alcohol or drugs. A first offence leads to a 3-day licence suspension and fines, with harsher penalties for repeated violations.</p>
               <span className={styles.readMore}>
-              <Link href="/penalties-and-sentencing/young-and-novice-driver-dui">Learn more about <strong>Young &amp; Novice Driver DUI</strong></Link>
+              <Link href="/main/penalties-and-sentencing/young-and-novice-driver-dui">Learn more about <strong>Young &amp; Novice Driver DUI</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
 
             <article className={styles.practiceCard}>
-              <h3><Link href="/penalties-and-sentencing/commercial-driver-dui">Commercial Driver DUI</Link></h3>
-              <p><strong><Link href="/penalties-and-sentencing/commercial-driver-dui">Commercial drivers</Link></strong> must adhere to zero-tolerance rules. A first offence means a 3-day suspension and fines, with more severe penalties for repeated incidents.</p>
+              <h3><Link href="/main/penalties-and-sentencing/commercial-driver-dui">Commercial Driver DUI</Link></h3>
+              <p><strong><Link href="/main/penalties-and-sentencing/commercial-driver-dui">Commercial drivers</Link></strong> must adhere to zero-tolerance rules. A first offence means a 3-day suspension and fines, with more severe penalties for repeated incidents.</p>
               <span className={styles.readMore}>
-              <Link href="/penalties-and-sentencing/commercial-driver-dui">Learn more about <strong>Commercial Driver DUI</strong></Link>
+              <Link href="/main/penalties-and-sentencing/commercial-driver-dui">Learn more about <strong>Commercial Driver DUI</strong></Link>
               </span><br/>
               <hr className={styles.blockEnd}></hr>
             </article>
@@ -480,7 +480,7 @@ export default async function Home() {
         <div className={styles.infoContainer}>
           <div className={styles.infoColumn}>
             <div className={styles.infoIconWrapper}>
-                <Link href="/criminal-process/should-i-plead-guilty">
+                <Link href="/main/criminal-process/should-i-plead-guilty">
                   <Image 
                     src={guilty}
                     alt="Scales of justice icon"
@@ -491,19 +491,19 @@ export default async function Home() {
                 </Link>
             </div>
             <div className={styles.infoContent}>
-                <Link href="/criminal-process/should-i-plead-guilty">
+                <Link href="/main/criminal-process/should-i-plead-guilty">
                 <h2 className={styles.infoHeading}>Should I Plead Guilty?</h2></Link>
                 <p>Choosing to plead guilty is a critical decision that requires careful consideration. It&apos;s important to fully understand the potential penalties, long-term effects, and consequences of a guilty plea. Seeking advice from an experienced DUI lawyer ensures you have the guidance needed to make an informed decision.</p>
             </div>
             <div className={styles.infoButtonContainer}>
-              <Link href="/criminal-process/should-i-plead-guilty/" className={styles.infoButtonLink}>
+              <Link href="/main/criminal-process/should-i-plead-guilty/" className={styles.infoButtonLink}>
                   <button className={`${styles.introButton} ${styles.infoButton}`}>Outcomes of a Guilty Plea</button>
               </Link>
             </div>
           </div>
           <div className={styles.infoColumn}>
             <div className={styles.infoIconWrapper}>
-                <Link href="/criminal-process/can-i-beat-the-charges">
+                <Link href="/main/criminal-process/can-i-beat-the-charges">
                   <Image 
                     src={beatCharges}
                     alt="Breaking free of chains icon"
@@ -514,12 +514,12 @@ export default async function Home() {
                 </Link>
             </div>
             <div className={styles.infoContent}>
-                <Link href="/criminal-process/can-i-beat-the-charges">
+                <Link href="/main/criminal-process/can-i-beat-the-charges">
                 <h2 className={styles.infoHeading}>Can I Beat The Charges?</h2></Link>
                 <p>Facing impaired driving charges can be overwhelming, but defeating the charges is achievable in many cases. Factors such as potential rights violations, the quality of the prosecution&apos;s evidence, and applicable defences play a pivotal role. An experienced DUI lawyer can assess your case, examine evidence, and craft a strong defence to pursue the best outcome.</p>
             </div>
             <div className={styles.infoButtonContainer}>
-              <Link href="/criminal-process/can-i-beat-the-charges" className={styles.infoButtonLink}>
+              <Link href="/main/criminal-process/can-i-beat-the-charges" className={styles.infoButtonLink}>
                 <button className={`${styles.introButton} ${styles.infoButton}`}>Beating DUI Charges</button>
               </Link>
             </div>
@@ -554,13 +554,13 @@ export default async function Home() {
       <section className={styles.processRow}>
         <div className={styles.processContainer}>
         <div className={styles.leftHeadingContainer}>
-          <h2 className={`${styles.sectionHeading} ${styles.criminalProcessh2}`}><Link href="/criminal-process">Criminal Process Following an Impaired Driving Charge</Link></h2>
+          <h2 className={`${styles.sectionHeading} ${styles.criminalProcessh2}`}><Link href="/main/criminal-process">Criminal Process Following an Impaired Driving Charge</Link></h2>
           <h3 className={styles.sectionSubheading}>Take The First Step Toward Your DUI Defence</h3>
           </div>
 
           <article>
             <div className={styles.processPhotoContainer}>
-              <Link href="/criminal-process">
+              <Link href="/main/criminal-process">
                 <Image 
                   src={criminalProcessPhoto}
                   alt="Committed to Excellence in Service"
@@ -626,7 +626,7 @@ export default async function Home() {
         <div className={styles.infoContainer}>
           <div className={styles.infoColumn}>
             <div className={styles.infoIconWrapper}>
-                <Link href="/penalties-and-sentencing">
+                <Link href="/main/penalties-and-sentencing">
                   <Image 
                     src={handcuffIcon}
                     alt="Handcuffs"
@@ -637,19 +637,19 @@ export default async function Home() {
                 </Link>
             </div>
             <div className={styles.infoContent}>
-                <Link href="/penalties-and-sentencing">
+                <Link href="/main/penalties-and-sentencing">
                 <h2 className={styles.infoHeading}>Penalties and Sentencing</h2></Link>
                 <p>Penalties for impaired driving can range from fines and licence suspensions to jail time. Understanding these potential consequences is important when deciding how to proceed with your case. A DUI lawyer can explain the possible sentencing outcomes and help you prepare.</p>
             </div>
             <div className={styles.infoButtonContainer}>
-              <Link href="/penalties-and-sentencing" className={styles.infoButtonLink}>
+              <Link href="/main/penalties-and-sentencing" className={styles.infoButtonLink}>
                   <button className={`${styles.introButton} ${styles.infoButton}`}>DUI Sentencing</button>
               </Link>
             </div>
           </div>
           <div className={styles.infoColumn}>
             <div className={styles.infoIconWrapper}>
-                <Link href="/penalties-and-sentencing/defences-available-for-dui-charges">
+                <Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges">
                   <Image 
                     src={shieldIcon}
                     alt="Shield"
@@ -660,19 +660,19 @@ export default async function Home() {
                 </Link>
             </div>
             <div className={styles.infoContent}>
-                <Link href="/penalties-and-sentencing/defences-available-for-dui-charges">
+                <Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges">
                 <h2 className={styles.infoHeading}>Defences Available</h2></Link>
                 <p>There are various defences against impaired driving charges, including challenges to the accuracy of breath tests and the legality of police stops. A DUI lawyer can assess the evidence and work to develop a defence that addresses the specifics of your case.</p>
             </div>
             <div className={styles.infoButtonContainer}>
-              <Link href="/penalties-and-sentencing/defences-available-for-dui-charges" className={styles.infoButtonLink}>
+              <Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges" className={styles.infoButtonLink}>
                 <button className={`${styles.introButton} ${styles.infoButton}`}>DUI Defences</button>
               </Link>
             </div>
           </div>
           <div className={styles.infoColumn}>
             <div className={styles.infoIconWrapper}>
-                <Link href="/criminal-process/how-to-get-your-drivers-licence-reinstated">
+                <Link href="/main/criminal-process/how-to-get-your-drivers-licence-reinstated">
                   <Image 
                     src={licenceIcon}
                     alt="Driver's licence"
@@ -683,12 +683,12 @@ export default async function Home() {
                 </Link>
             </div>
             <div className={styles.infoContent}>
-                <Link href="/criminal-process/how-to-get-your-drivers-licence-reinstated">
+                <Link href="/main/criminal-process/how-to-get-your-drivers-licence-reinstated">
                 <h2 className={styles.infoHeading}>Get Your Driver&apos;s Licence Reinstated</h2></Link>
                 <p>Losing your licence due to an impaired driving charge can impact your daily life. A DUI lawyer can guide you through the reinstatement process, helping you understand eligibility requirements and any conditions you must meet to regain your driving privileges.</p>
             </div>
             <div className={styles.infoButtonContainer}>
-              <Link href="/criminal-process/how-to-get-your-drivers-licence-reinstated" className={styles.infoButtonLink}>
+              <Link href="/main/criminal-process/how-to-get-your-drivers-licence-reinstated" className={styles.infoButtonLink}>
                 <button className={`${styles.introButton} ${styles.infoButton}`}>Get Your Licence Reinstated</button>
               </Link>
             </div>
@@ -741,12 +741,12 @@ export default async function Home() {
       <section className={styles.faqRow}>
         <div className={styles.faqContainer}>
           <div className={`${styles.FAQTitleRow} ${styles.headingContainer}`}>
-            <h2 className={`${styles.sectionHeading}`}><Link href="/criminal-process/faq">Frequently Asked Questions</Link></h2>
+            <h2 className={`${styles.sectionHeading}`}><Link href="/main/criminal-process/faq">Frequently Asked Questions</Link></h2>
             <h3 className={`${styles.sectionSubheading}`}>Have Questions About Your DUI? Give Us a Call</h3>
           </div>
           <FAQAccordion />
           <div className={styles.FAQButtonContainer}>
-              <Link href="/criminal-process/faq" className={styles.infoButtonLink}>
+              <Link href="/main/criminal-process/faq" className={styles.infoButtonLink}>
                 <button className={styles.faqButton}>View Our FAQ</button>
             </Link>
             </div>
