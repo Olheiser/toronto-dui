@@ -40,7 +40,7 @@ export default function Page() {
                         <li><strong>Summary Conviction:</strong> Up to 2 years less a day in prison and/or a fine.</li>
                         <li><strong>Indictable Offence:</strong> Up to 10 years in prison if no bodily harm or death occurs; up to 14 years for causing bodily harm and life imprisonment if it results in death.</li>
                     </ul>
-                    <p className={styles.contentBreak}><Link href="/penalties-and-sentencing">Click here to learn more about the potential penalties for dangerous driving.</Link></p>
+                    <p className={styles.contentBreak}><Link href="/main/penalties-and-sentencing">Click here to learn more about the potential penalties for dangerous driving.</Link></p>
 
                     <h2>Defences Available for Dangerous Driving</h2>
                     <p>Possible defences include:</p>
@@ -50,7 +50,7 @@ export default function Page() {
                         <li>Medical emergencies.</li>
                         <li>Absence of actual danger to the public.</li>
                     </ul>
-                    <p className={styles.contentBreak}><Link href="/penalties-and-sentencing/defences-available-for-dui-charges">Click here to learn more about the potential defences available for dangerous driving charges.</Link></p>
+                    <p className={styles.contentBreak}><Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges">Click here to learn more about the potential defences available for dangerous driving charges.</Link></p>
 
                     <h2>Speak to an Experienced Impaired Driving Lawyer Today</h2>
                     <p className={styles.contentBreak}>Successfully navigating impaired driving or DUI charges requires legal expertise and a strong defence strategy. A skilled impaired driving lawyer can help reduce penalties, negotiate favourable plea agreements, and provide representation in court to protect your future. Don&apos;t face these charges alone—speak to a qualified DUI lawyer today. Call <a href="tel:6476972876">(647) 697-2876</a> for a free consultation and take the first step toward protecting your rights.</p>

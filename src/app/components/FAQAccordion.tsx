@@ -28,7 +28,7 @@ const FAQAccordion = () => {
         {activeIndex === 0 && (
           <div className={styles.faqAnswer}>
             <p>A qualified impaired driving lawyer can help you determine what defences might exist to the charges you face.</p> 
-            <Button link="/criminal-process/can-i-beat-the-charges" text="Learn how you can beat the charges" />
+            <Button link="/main/criminal-process/can-i-beat-the-charges" text="Learn how you can beat the charges" />
           </div>
         )}
       </div>
@@ -76,7 +76,7 @@ const FAQAccordion = () => {
     {activeIndex === 2 && (
         <div className={styles.faqAnswer}>
         <p>The duration of an impaired driving case varies depending on its complexity, the charges, and the court&apos;s schedule. Your DUI lawyer can provide an estimated timeline based on the specifics of your case.</p>
-        <Button link="/criminal-process" text="Criminal Process" /> 
+        <Button link="/main/criminal-process" text="Criminal Process" /> 
         </div>
     )}
     </div>
@@ -140,7 +140,7 @@ const FAQAccordion = () => {
   {activeIndex === 5 && (
     <div className={styles.faqAnswer}>
       <p>You have the right to remain silent, the right to legal counsel, and the right to be informed of the charges against you. It is important to exercise these rights and contact a DUI lawyer as soon as possible.</p>
-      <Button link="/criminal-process/your-rights" text="Your Rights" />
+      <Button link="/main/criminal-process/your-rights" text="Your Rights" />
     </div>
   )}
 </div>
@@ -183,7 +183,7 @@ const FAQAccordion = () => {
   {activeIndex === 7 && (
     <div className={styles.faqAnswer}>
       <p>Remain calm, do not resist, and exercise your right to remain silent. Contact an impaired driving lawyer immediately to receive legal advice and representation.</p>
-      <Button link="/criminal-process/your-rights" text="Your Rights" />
+      <Button link="/main/criminal-process/your-rights" text="Your Rights" />
     </div>
   )}
 </div>

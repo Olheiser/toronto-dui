@@ -11,6 +11,7 @@ import FAQAccordion from "@/app/components/FAQAccordion";
 import logo from "../../../../public/logo-white-type.png";
 import pro from "../../../../public/professional.jpg";
 import AdForm from "@/app/components/AdForm";
+import ctaImage from "../../../../public/cta-row.avif";
 // test
 import type { Metadata } from "next";  // ← Keep this one only
 
@@ -29,9 +30,10 @@ export default function Page() {
                 <h2>Nicholas Robinson, DUI Lawyer</h2>
                 <h4>Impaired Driving Specialist</h4>
                 <h3>Proven Track Record Defending Impaired Driving Charges</h3>
-                <p>Nicholas Robinson is a committed criminal defence lawyer with offices in Regina, Saskatchewan, and Toronto, Ontario. Since 2009, Nicholas has provided individualized and responsive legal representation to over 1,300 clients, ensuring they feel understood, respected, and effectively defended. His dedication has resulted in more than 100 successful trial matters.</p>
-                <p>Nicholas&apos; vast experience spans from tackling complex class actions against formidable opponents such as General Motors, Mattel, GlaxoSmithKline, and Conrad Black, to fervently defending clients against diverse criminal allegations. No case is too complex or too simple – whether it involves accusations of sexual assault or impaired driving, Nicholas is unwavering in his commitment to safeguard your rights and protect your future.</p>
-                <p>Reach out to Nicholas today to experience the difference that a seasoned and empathetic criminal defence lawyer can make in your case.</p>
+                <p>Nicholas Robinson is a renowned Criminal Lawyer, specializing in DUI defence, with offices in Toronto, Ontario, and Regina, Saskatchewan.</p>
+                <p>With over 1,300 cases under his belt over the last 17 years, Nicholas brings unparalleled experience to every client he serves. Drawing on a history of over 100 trials successfully concluded, Nicholas brings a proven record of victory and assurance to the clients he serves.</p>
+                <p>icholas has a broad range of experience, from litigating complex legal disputes against major corporations to providing robust defence for clients facing legal challenges. No case is too complex or too simple &#x2d; Nicholas is unwavering in his commitment to safeguard your rights and protect your future. </p>
+                <p>Call Nicholas today to experience the difference that a veteran criminal defence lawyer, with a proven record of victory, can make in your case.</p>
                 <div className={styles.ppcCards}>
                     <div className={styles.ppcCard}>
                         <Image 
@@ -83,7 +85,8 @@ export default function Page() {
         <section className={styles.duiSection}>
             <div className={styles.duiContainer}>
 
-                <h2 className={styles.sectionTitle}>DUI Services</h2>
+                <h2 className={styles.sectionTitle}>Practice Areas</h2>
+                <h3 className={styles.sectionSubheading}>We Get Winning Results</h3>
                 <div className={styles.duiGrid}>
                     <div className={`${styles.duiCard} ${styles.card1}`}>
                         <h3>Impaired Driving</h3>
@@ -180,6 +183,19 @@ export default function Page() {
         </div>
       </div>
     </section>
+
+      <section className={styles.consultRow}>
+        <div className={styles.consultContent}>
+          <h2>Receive a Free Consultation</h2>
+          <h3>We&apos;ll Develop a Tailored Legal Strategy For Your Unique Circumstances</h3>
+          <div className={styles.introButtonRow}>
+            <a href="tel:6476972876">
+            <button className={styles.ctaButton}>Call Now</button>
+            </a>
+          </div>
+        </div>
+
+      </section>
 
 
 

@@ -21,6 +21,8 @@ import HandshakePhoto from "../../public/criminal-lawyer-handshake.webp";
 import licenceIcon from "../../public/licence-icon.webp";
 import shieldIcon from "../../public/shield.webp";
 import handcuffIcon from "../../public/handcuffs.webp";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 // For security
 import { headers } from 'next/headers'
@@ -224,6 +226,7 @@ export default async function Home() {
           nonce={nonce} 
         />
       )}
+    <Header />
     <main>
       <section className={styles.introRow}>
         
@@ -750,6 +753,7 @@ export default async function Home() {
         </div>
       </section>
     </main>
+    <Footer />
     <script 
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

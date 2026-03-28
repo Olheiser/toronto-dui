@@ -40,7 +40,7 @@ export default function Page() {
                         <li><strong>Summary Conviction:</strong> Up to 2 years less a day in prison and/or a fine.</li>
                         <li><strong>Indictable Offence:</strong> Up to 10 years in prison if no bodily harm is involved, escalating to 14 years with bodily harm and up to life imprisonment if the accident results in death.</li>
                     </ul>
-                    <p className={styles.contentBreak}><Link href="/penalties-and-sentencing">Click here to learn more about the potential penalties for failing to stop at an accident.</Link></p>
+                    <p className={styles.contentBreak}><Link href="/main/penalties-and-sentencing">Click here to learn more about the potential penalties for failing to stop at an accident.</Link></p>
 
                     <h2>Defences Available for Failure to Stop at an Accident</h2>
                     <p>Possible defences include:</p>
@@ -50,7 +50,7 @@ export default function Page() {
                         <li>No legal duty to stop under given circumstances.</li>
                         <li>Reasonable excuse for failing to stop.</li>
                     </ul>
-                    <p className={styles.contentBreak}><Link href="/penalties-and-sentencing/defences-available-for-dui-charges">Click here to learn more about the potential defences available for failure to stop at an accident charges.</Link></p>
+                    <p className={styles.contentBreak}><Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges">Click here to learn more about the potential defences available for failure to stop at an accident charges.</Link></p>
 
                     <h2>Speak to an Impaired Driving Lawyer Today</h2>
                     <p className={styles.contentBreak}>If you&apos;re facing charges for failing to stop at an accident, a skilled criminal lawyer is essential. They can challenge the evidence, present mitigating factors, and advocate for reduced penalties or dismissal of charges. Call <a href="tel:6476972876">(647) 697-2876</a> to receive a free consultation today.</p>

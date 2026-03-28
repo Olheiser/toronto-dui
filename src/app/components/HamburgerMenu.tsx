@@ -89,17 +89,17 @@ const HamburgerMenu = () => {
                     <ul className={`${styles.dropdown} ${
                             activeDropdown === 0 ? styles.showDropdown : ""
                         }`}>
-                        <li><Link href="/criminal-process/can-i-beat-the-charges" className={pathname === "/criminal-process/can-i-beat-the-charges" ? styles.active : ""}>Can I Beat the Charges?</Link></li>
-                        <li><Link href="/criminal-process/should-i-plead-guilty" className={pathname === "/criminal-process/should-i-plead-guilty" ? styles.active : ""}>Should I Plead Guilty?</Link></li>
-                        <li><Link href="/criminal-process/how-to-get-your-drivers-licence-reinstated" className={pathname === "/criminal-process/how-to-get-your-drivers-licence-reinstated" ? styles.active : ""}>How to Get Your Driver&apos;s Licence Reinstated</Link></li>
-                        <li><Link href="/criminal-process/your-rights" className={pathname === "/criminal-process/your-rights" ? styles.active : ""}>Your Rights</Link></li>
-                        <li><Link href="/criminal-process/faq" className={pathname === "/criminal-process/faq" ? styles.active : ""}>FAQ</Link></li>
+                        <li><Link href="/main/criminal-process/can-i-beat-the-charges" className={pathname === "/main/criminal-process/can-i-beat-the-charges" ? styles.active : ""}>Can I Beat the Charges?</Link></li>
+                        <li><Link href="/main/criminal-process/should-i-plead-guilty" className={pathname === "/main/criminal-process/should-i-plead-guilty" ? styles.active : ""}>Should I Plead Guilty?</Link></li>
+                        <li><Link href="/main/criminal-process/how-to-get-your-drivers-licence-reinstated" className={pathname === "/main/criminal-process/how-to-get-your-drivers-licence-reinstated" ? styles.active : ""}>How to Get Your Driver&apos;s Licence Reinstated</Link></li>
+                        <li><Link href="/main/criminal-process/your-rights" className={pathname === "/main/criminal-process/your-rights" ? styles.active : ""}>Your Rights</Link></li>
+                        <li><Link href="/main/criminal-process/faq" className={pathname === "/main/criminal-process/faq" ? styles.active : ""}>FAQ</Link></li>
                     </ul>
                 </li>
                 <li
                     >
                     <div className={styles.menuItemRow}>
-                        <Link href="/practice-areas" className={pathname === "/practice-areas" ? styles.active : ""}>Practice Areas</Link>
+                        <Link href="/main/practice-areas" className={pathname === "/main/practice-areas" ? styles.active : ""}>Practice Areas</Link>
                         <span 
                             className={styles.dropdownArrow}
                             onClick={() => handleDropdownToggle(1)}>
@@ -109,12 +109,12 @@ const HamburgerMenu = () => {
                     <ul className={`${styles.dropdown} 
                         ${activeDropdown === 1 ? styles.showDropdown : ""}`}
                     >
-                        <li><Link href="/practice-areas/impaired-driving" className={pathname === "/practice-areas/impaired-driving" ? styles.active : ""}>Impaired Driving</Link></li>
-                        <li><Link href="/practice-areas/driving-over-08" className={pathname === "/practice-areas/driving-over-08" ? styles.active : ""}>Driving Over .08</Link></li>
-                        <li><Link href="/practice-areas/dangerous-driving" className={pathname === "/practice-areas/dangerous-driving" ? styles.active : ""}>Dangerous Driving</Link></li>
-                        <li><Link href="/practice-areas/failure-to-stop-at-an-accident" className={pathname === "/practice-areas/failure-to-stop-at-an-accident" ? styles.active : ""}>Failure to Stop at an Accident</Link></li>
-                        <li><Link href="/practice-areas/flight-from-a-peace-officer" className={pathname === "/practice-areas/flight-from-peace-officer" ? styles.active : ""}>Flight From a Peace Officer</Link></li>
-                        <li><Link href="/practice-areas/refusing-a-breathalyzer-or-drug-test" className={pathname === "/practice-areas/refusing-a-breathalyzer-or-drug-test" ? styles.active : ""}>Refusing a Breathalyzer or Drug Test</Link></li>
+                        <li><Link href="/main/practice-areas/impaired-driving" className={pathname === "/main/practice-areas/impaired-driving" ? styles.active : ""}>Impaired Driving</Link></li>
+                        <li><Link href="/main/practice-areas/driving-over-08" className={pathname === "/main/practice-areas/driving-over-08" ? styles.active : ""}>Driving Over .08</Link></li>
+                        <li><Link href="/main/practice-areas/dangerous-driving" className={pathname === "/main/practice-areas/dangerous-driving" ? styles.active : ""}>Dangerous Driving</Link></li>
+                        <li><Link href="/main/practice-areas/failure-to-stop-at-an-accident" className={pathname === "/main/practice-areas/failure-to-stop-at-an-accident" ? styles.active : ""}>Failure to Stop at an Accident</Link></li>
+                        <li><Link href="/main/practice-areas/flight-from-a-peace-officer" className={pathname === "/main/practice-areas/flight-from-peace-officer" ? styles.active : ""}>Flight From a Peace Officer</Link></li>
+                        <li><Link href="/main/practice-areas/refusing-a-breathalyzer-or-drug-test" className={pathname === "/main/practice-areas/refusing-a-breathalyzer-or-drug-test" ? styles.active : ""}>Refusing a Breathalyzer or Drug Test</Link></li>
                     </ul>
                 </li>
                 <li 
@@ -122,7 +122,7 @@ const HamburgerMenu = () => {
                     onMouseLeave={typeof window !== "undefined" && window.innerWidth >= 1000 ? handleMouseLeave : undefined}
                 >
                     <div className={styles.menuItemRow}>
-                        <Link href="/penalties-and-sentencing" className={pathname === "/penalties-and-sentencing" ? styles.active : ""}>Penalties &amp; Sentencing</Link>
+                        <Link href="/main/penalties-and-sentencing" className={pathname === "/main/penalties-and-sentencing" ? styles.active : ""}>Penalties &amp; Sentencing</Link>
                         <span 
                             className={styles.dropdownArrow}
                             onClick={() => handleDropdownToggle(2)}>
@@ -133,11 +133,11 @@ const HamburgerMenu = () => {
                     <ul className={`${styles.dropdown} ${
                             activeDropdown === 0 ? styles.showDropdown : ""
                         }`}>
-                        <li><Link href="/penalties-and-sentencing/defences-available-for-dui-charges" className={pathname === "/penalties-and-sentencing/defences-available-for-dui-charges" ? styles.active : ""}>Defences Available for DUI Charges</Link></li>
-                        <li><Link href="/penalties-and-sentencing/repeat-dui-charges" className={pathname === "/penalties-and-sentencing/repeat-dui-charges" ? styles.active : ""}>Repeat DUI Charges</Link></li>
-                        <li><Link href="/penalties-and-sentencing/young-and-novice-driver-dui" className={pathname === "/penalties-and-sentencing/young-and-novice-driver-dui" ? styles.active : ""}>Young and Novice Driver DUI</Link></li>
-                        <li><Link href="/penalties-and-sentencing/commercial-driver-dui" className={pathname === "/penalties-and-sentencing/commercial-driver-dui" ? styles.active : ""}>Commercial Driver DUI</Link></li>
-                        <li><Link href="/penalties-and-sentencing/cannabis-dui-charges" className={pathname === "/penalties-and-sentencing/cannabis-dui-charges" ? styles.active : ""}>Cannabis DUI Charges</Link></li>
+                        <li><Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges" className={pathname === "/main/penalties-and-sentencing/defences-available-for-dui-charges" ? styles.active : ""}>Defences Available for DUI Charges</Link></li>
+                        <li><Link href="/main/penalties-and-sentencing/repeat-dui-charges" className={pathname === "/main/penalties-and-sentencing/repeat-dui-charges" ? styles.active : ""}>Repeat DUI Charges</Link></li>
+                        <li><Link href="/main/penalties-and-sentencing/young-and-novice-driver-dui" className={pathname === "/main/penalties-and-sentencing/young-and-novice-driver-dui" ? styles.active : ""}>Young and Novice Driver DUI</Link></li>
+                        <li><Link href="/main/penalties-and-sentencing/commercial-driver-dui" className={pathname === "/main/penalties-and-sentencing/commercial-driver-dui" ? styles.active : ""}>Commercial Driver DUI</Link></li>
+                        <li><Link href="/main/penalties-and-sentencing/cannabis-dui-charges" className={pathname === "/main/penalties-and-sentencing/cannabis-dui-charges" ? styles.active : ""}>Cannabis DUI Charges</Link></li>
                     </ul>
                 </li>
                 

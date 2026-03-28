@@ -47,7 +47,7 @@ export default function Page() {
                         <li><strong>Indictable Offence:</strong> Up to 10 years in prison.</li>
                     </ul>
 
-                    <p className={styles.contentBreak}><Link href="/penalties-and-sentencing/">Click here to learn more about the potential penalties for refusing a breathalyzer or drug test.</Link></p>
+                    <p className={styles.contentBreak}><Link href="/main/penalties-and-sentencing/">Click here to learn more about the potential penalties for refusing a breathalyzer or drug test.</Link></p>
 
                     <h2>Defences Available for Impaired Driving</h2>
                     <p>Several defences may apply in impaired driving cases, including:</p>
@@ -58,7 +58,7 @@ export default function Page() {
                         <li><strong>No Impairment:</strong> Arguing that the accused was not impaired at the time of driving, supported by credible evidence.</li>
                     </ul>
 
-                    <p className={styles.contentBreak}><Link href="/penalties-and-sentencing/defences-available-for-dui-charges">Click here to learn more about the potential defences available for refusing a breathalyzer or drug test charges.</Link></p>
+                    <p className={styles.contentBreak}><Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges">Click here to learn more about the potential defences available for refusing a breathalyzer or drug test charges.</Link></p>
 
                     <h2>Speak to an Experienced Impaired Driving Lawyer Today</h2>
                     <p className={styles.contentBreak}>Successfully navigating impaired driving or DUI charges requires legal expertise and a strong defence strategy. A skilled impaired driving lawyer can help reduce penalties, negotiate favourable plea agreements, and provide representation in court to protect your future. Don&apos;t face these charges alone—speak to a qualified DUI lawyer today. Call <a href="tel:6476972876">(647) 697-2876</a> for a free consultation and take the first step toward protecting your rights.</p>

@@ -40,7 +40,7 @@ const LeadForm = () => {
             <h3>Let Us Call You Back</h3>
             <label htmlFor="fullName">Full Name</label>
             <input type="text" name="name" id="name" 
-                required placeholder="name"/>
+                required placeholder="Your name..."/>
 
             <label htmlFor="email">Email Address</label>
             <input type="email" name="email" id="email" required placeholder="Your Email Address..." pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" />

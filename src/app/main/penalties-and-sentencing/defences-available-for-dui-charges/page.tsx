@@ -33,11 +33,11 @@ export default function Page() {
 
                     <h2>Specific Defences for Related Offences</h2>
                     <ul className={`${styles.contentBreak} ${styles.contentList}`}>
-                        <li><strong><Link href="/practice-areas/refusing-a-breathalyzer-or-drug-test">Refusing a Breathalyzer or Drug Test:</Link></strong> A reasonable excuse, such as a medical condition or language barrier, might justify refusal and lead to dropped charges.</li>
-                        <li><strong><Link href="/practice-areas/driving-over-08">Driving Over .08:</Link></strong> If the blood alcohol content test was not conducted promptly, it might not accurately reflect your BAC at the time of driving, which could weaken the prosecution&apos;s case.</li>
-                        <li><strong><Link href="/practice-areas/dangerous-driving">Dangerous Driving:</Link></strong> Demonstrating that your actions did not constitute a marked departure from normal driving behaviour, or were due to unforeseen circumstances, can help mitigate the charges.</li>
-                        <li><strong><Link href="/practice-areas/failure-to-stop-at-an-accident">Failure to Stop at an Accident:</Link></strong> If you were unaware of the accident, you cannot be held liable for failing to stop, as knowledge of the accident is a requisite element of the offence.</li>
-                        <li><strong><Link href="/practice-areas/flight-from-a-peace-officer">Flight From a Peace Officer:</Link></strong> Proving lack of awareness of the pursuit, or having a reasonable excuse for not stopping, can be effective defences.</li>
+                        <li><strong><Link href="/main/practice-areas/refusing-a-breathalyzer-or-drug-test">Refusing a Breathalyzer or Drug Test:</Link></strong> A reasonable excuse, such as a medical condition or language barrier, might justify refusal and lead to dropped charges.</li>
+                        <li><strong><Link href="/main/practice-areas/driving-over-08">Driving Over .08:</Link></strong> If the blood alcohol content test was not conducted promptly, it might not accurately reflect your BAC at the time of driving, which could weaken the prosecution&apos;s case.</li>
+                        <li><strong><Link href="/main/practice-areas/dangerous-driving">Dangerous Driving:</Link></strong> Demonstrating that your actions did not constitute a marked departure from normal driving behaviour, or were due to unforeseen circumstances, can help mitigate the charges.</li>
+                        <li><strong><Link href="/main/practice-areas/failure-to-stop-at-an-accident">Failure to Stop at an Accident:</Link></strong> If you were unaware of the accident, you cannot be held liable for failing to stop, as knowledge of the accident is a requisite element of the offence.</li>
+                        <li><strong><Link href="/main/practice-areas/flight-from-a-peace-officer">Flight From a Peace Officer:</Link></strong> Proving lack of awareness of the pursuit, or having a reasonable excuse for not stopping, can be effective defences.</li>
                     </ul>
 
                     <h2>Speak to an Experienced Impaired Driving Lawyer Today</h2>

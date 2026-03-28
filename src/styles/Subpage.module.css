@@ -1027,3 +1027,90 @@ padding-bottom: 5px;
     padding: 3rem;
   }
 }
+
+.duiContainer h2 {
+  color: #f6f6f6;
+  text-align: center;
+}
+
+.duiContainer .sectionSubheading {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+/* FREE CONSULTATION */
+.consultRow {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url('https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/589058e4-54a1-40a1-aa8d-24b6cd203600/public'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consultContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.consultContent h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #bb0000;
+}
+
+.consultContent h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .consultRow {
+    min-height: 400px;
+  }
+  
+  .consultContent h2 {
+    font-size: 2rem;
+  }
+  
+  .consultContent h3 {
+    font-size: 1.125rem;
+  }
+  
+  .consultContent {
+    padding: 40px 20px;
+  }
+}
+
+.ctaButton {
+    color: #ffffff;
+    background-color: #bb0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+}
+
+.ctaButton:hover {
+    background-color: #990000;
+}

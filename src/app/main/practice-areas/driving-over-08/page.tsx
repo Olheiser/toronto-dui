@@ -43,7 +43,7 @@ export default function Page() {
                         <li><strong>Subsequent Offences:</strong> Minimum 120 days imprisonment.</li>
                         <li><strong>Indictable Offence:</strong> Up to 10 years in prison.</li>
                     </ul>
-                    <p className={styles.contentBreak}><Link href="/penalties-and-sentencing">Click here to learn more about the potential penalties for driving over .08.</Link></p>
+                    <p className={styles.contentBreak}><Link href="/main/penalties-and-sentencing">Click here to learn more about the potential penalties for driving over .08.</Link></p>
 
                     <h2>Defences Available for Driving Over .08</h2>
                     <p>Possible defences against charges of driving over .08 include:</p>
@@ -52,7 +52,7 @@ export default function Page() {
                         <li><strong>Faulty or Improperly Calibrated Testing Equipment:</strong> Demonstrating inaccuracies in the BAC measurement.</li>
                         <li><strong>Violation of Charter Rights:</strong> Highlighting any breaches of the accused&apos;s rights during the investigative process.</li>
                     </ul>
-                    <p className={styles.contentBreak}><Link href="/penalties-and-sentencing/defences-available-for-dui-charges">Click here to learn more about the potential defences available for driving over .08 charges.</Link></p>
+                    <p className={styles.contentBreak}><Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges">Click here to learn more about the potential defences available for driving over .08 charges.</Link></p>
 
                     <h2>Speak to an Impaired Driving Lawyer Today</h2>
                     <p className={styles.contentBreak}>Navigating charges of driving over .08 requires expert legal guidance. A skilled criminal lawyer can scrutinize the evidence, challenge the accuracy of the BAC readings, and ensure your rights are protected throughout the legal process. They can develop a comprehensive defence strategy to mitigate the consequences of the charge. Call <a href="tel:6476972876">(647) 697-2876</a> to receive a free consultation with a criminal lawyer today.</p>

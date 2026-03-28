@@ -42,29 +42,29 @@ const Footer = () => {
                         <div className={styles.footerSitemap}>
                             <h2>Sitemap</h2>
                             <ul className={styles.footerUl}>
-                                <li><Link href="/criminal-process">Criminal Process</Link></li>
-                                <li><Link href="/criminal-process/can-i-beat-the-charges">Can I Beat the Charges?</Link></li>
-                                <li><Link href="/criminal-process/should-i-plead-guilty">Should I Plead Guilty?</Link></li>
-                                <li><Link href="/criminal-process/how-to-get-your-drivers-licence-reinstated">How to Get Your Driver&apos;s Licence Reinstated</Link></li>
-                                <li><Link href="/criminal-process/your-rights">Your Rights</Link></li>
-                                <li><Link href="/criminal-process/faq">FAQ</Link></li>
-                                <li><Link href="/penalties-and-sentencing">Penalties &amp; Sentencing</Link></li>
-                                <li><Link href="/penalties-and-sentencing/cannabis-dui-charges">Cannabis DUI Charges</Link></li>
-                                <li><Link href="/penalties-and-sentencing/commercial-driver-dui">Commercial Driver DUI</Link></li>
-                                <li><Link href="/penalties-and-sentencing/defences-available-for-dui-charges">Defences Available for DUI Charges</Link></li>
-                                <li><Link href="/penalties-and-sentencing/repeat-dui-charges">Repeat DUI Charges</Link></li>
-                                <li><Link href="/penalties-and-sentencing/young-and-novice-driver-dui">Young and Novice Driver DUI</Link></li>
+                                <li><Link href="/main/criminal-process">Criminal Process</Link></li>
+                                <li><Link href="/main/criminal-process/can-i-beat-the-charges">Can I Beat the Charges?</Link></li>
+                                <li><Link href="/main/criminal-process/should-i-plead-guilty">Should I Plead Guilty?</Link></li>
+                                <li><Link href="/main/criminal-process/how-to-get-your-drivers-licence-reinstated">How to Get Your Driver&apos;s Licence Reinstated</Link></li>
+                                <li><Link href="/main/criminal-process/your-rights">Your Rights</Link></li>
+                                <li><Link href="/main/criminal-process/faq">FAQ</Link></li>
+                                <li><Link href="/main/penalties-and-sentencing">Penalties &amp; Sentencing</Link></li>
+                                <li><Link href="/main/penalties-and-sentencing/cannabis-dui-charges">Cannabis DUI Charges</Link></li>
+                                <li><Link href="/main/penalties-and-sentencing/commercial-driver-dui">Commercial Driver DUI</Link></li>
+                                <li><Link href="/main/penalties-and-sentencing/defences-available-for-dui-charges">Defences Available for DUI Charges</Link></li>
+                                <li><Link href="/main/penalties-and-sentencing/repeat-dui-charges">Repeat DUI Charges</Link></li>
+                                <li><Link href="/main/penalties-and-sentencing/young-and-novice-driver-dui">Young and Novice Driver DUI</Link></li>
                             </ul>
                         </div>
                         <div className={styles.footerPracticeAreas}>
-                            <h2><Link href="/practice-areas">Practice Areas</Link></h2>
+                            <h2><Link href="/main//practice-areas">Practice Areas</Link></h2>
                             <ul className={styles.footerUl}>
-                                <li><Link href="/practice-areas/impaired-driving">Impaired Driving</Link></li>
-                                <li><Link href="/practice-areas/dangerous-driving">Dangerous Driving</Link></li>
-                                <li><Link href="/practice-areas/failure-to-stop-at-an-accident">Failure to Stop at an Accident</Link></li>
-                                <li><Link href="/practice-areas/flight-from-a-peace-officer">Flight From Peace Officer</Link></li>
-                                <li><Link href="/practice-areas/refusing-a-breathalyzer-or-drug-test">Refusing a Breathalyzer or Drug Test</Link></li>
-                                <li><Link href="/practice-areas/driving-over-08">Driving Over .08</Link></li>
+                                <li><Link href="/main/practice-areas/impaired-driving">Impaired Driving</Link></li>
+                                <li><Link href="/main/practice-areas/dangerous-driving">Dangerous Driving</Link></li>
+                                <li><Link href="/main/practice-areas/failure-to-stop-at-an-accident">Failure to Stop at an Accident</Link></li>
+                                <li><Link href="/main/practice-areas/flight-from-a-peace-officer">Flight From Peace Officer</Link></li>
+                                <li><Link href="/main/practice-areas/refusing-a-breathalyzer-or-drug-test">Refusing a Breathalyzer or Drug Test</Link></li>
+                                <li><Link href="/main/practice-areas/driving-over-08">Driving Over .08</Link></li>
                             </ul>
                         </div>
                     </section>
