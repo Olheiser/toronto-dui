@@ -78,7 +78,7 @@ const HamburgerMenu = () => {
                     onMouseLeave={typeof window !== "undefined" && window.innerWidth >= 1000 ? handleMouseLeave : undefined}
                 >
                     <div className={styles.menuItemRow}>
-                        <Link href="/criminal-process" className={pathname === "/criminal-process" ? styles.active : ""}>Criminal Process</Link>
+                        <Link href="/main/criminal-process" className={pathname === "/criminal-process" ? styles.active : ""}>Criminal Process</Link>
                         <span 
                             className={styles.dropdownArrow}
                             onClick={() => handleDropdownToggle(0)}>
