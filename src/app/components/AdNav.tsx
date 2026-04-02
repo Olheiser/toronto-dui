@@ -4,7 +4,7 @@ import styles from "@/styles/AdHdrFtr.module.css";
 //import adStyles from "@/styles/AdHdrFtr.module.css";
 import logo from "../../../public/toronto-criminal-lawyer.webp";
 import cbc from "../../../public/cbc-logo.png";
-import globalNews from "../../../public/global-news-logo.png"
+import globalNews from "../../../public/global-news-logo-white.png"
 import Link from "next/link";
 
 const AdNav = () => {
@@ -76,7 +76,7 @@ const AdNav = () => {
                         <h4>Years Defending<br/>DUI Charges</h4>
                     </div>
                     <div className={styles.heroCard}>
-                        <h3>60+</h3>
+                        <h3>80+</h3>
                         <h4>5/5 Star Ratings<br/>On Google</h4>
                     </div>
                 </div>
