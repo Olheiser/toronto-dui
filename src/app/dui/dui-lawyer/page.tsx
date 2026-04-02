@@ -32,7 +32,7 @@ export default function Page() {
                 <h3>Proven Track Record Defending Impaired Driving Charges</h3>
                 <p>Nicholas Robinson is a renowned Criminal Lawyer, specializing in DUI defence, with offices in Toronto, Ontario, and Regina, Saskatchewan.</p>
                 <p>With over 1,300 cases under his belt over the last 17 years, Nicholas brings unparalleled experience to every client he serves. Drawing on a history of over 100 trials successfully concluded, Nicholas brings a proven record of victory and assurance to the clients he serves.</p>
-                <p>icholas has a broad range of experience, from litigating complex legal disputes against major corporations to providing robust defence for clients facing legal challenges. No case is too complex or too simple &#x2d; Nicholas is unwavering in his commitment to safeguard your rights and protect your future. </p>
+                <p>Nicholas has a broad range of experience, from litigating complex legal disputes against major corporations to providing robust defence for clients facing legal challenges. No case is too complex or too simple &#x2d; Nicholas is unwavering in his commitment to safeguard your rights and protect your future. </p>
                 <p>Call Nicholas today to experience the difference that a veteran criminal defence lawyer, with a proven record of victory, can make in your case.</p>
                 <div className={styles.ppcCards}>
                     <div className={styles.ppcCard}>
