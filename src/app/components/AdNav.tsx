@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from "@/styles/AdHdrFtr.module.css";
 //import adStyles from "@/styles/AdHdrFtr.module.css";
 import logo from "../../../public/toronto-criminal-lawyer.webp";
-import reviewBadge from "../../../public/review-widget.png";
+import reviewBadge from "../../../public/review-badge-v2.png";
 import cbc from "../../../public/cbc-logo.png";
 import globalNews from "../../../public/global-news-logo-white.png"
 import Link from "next/link";
