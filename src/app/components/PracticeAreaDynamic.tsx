@@ -22,7 +22,7 @@ const PRACTICE_AREAS: PracticeArea[] = [
     paragraph:
       "A charge of Impaired Operation of a Conveyance (commonly known as Drunk Driving) is laid if an individual is believed to operate a motor vehicle, vessel, or aircraft, while their ability is impaired by alcohol, drugs, or a combination of both. At Nicholas Robinson Criminal Lawyer, we use our years of experience, combined with our proven winning strategies, to help you fight your charges, protect your license, and avoid a criminal record.",
     buttonLabel: "Free Case Review",
-    buttonHref: "/practice-areas/corporate-law",
+    buttonHref: "tel:6473722661",
     image: "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/37bfa81c-8140-4ffc-aa6e-3f042a2d2800/public",
   },
   {
@@ -32,7 +32,7 @@ const PRACTICE_AREAS: PracticeArea[] = [
     paragraph:
       "Police do not need a reasonable suspicion that you have been drinking. So long as the officer has the Approved Screening Device (ASD) with them, they may demand a breath sample. The failure to provide a breath sample will result in criminal charges amongst other penalties. With extensive expertise in such charges, Nicholas Robinson develops winning strategies that deliver favorable results for his clients.",
     buttonLabel: "Free Case Review",
-    buttonHref: "/practice-areas/corporate-law",
+    buttonHref: "tel:6473722661",
     image: "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/bda1ecb9-f2c3-4f74-bfa6-c14e3e61ae00/public",
   },
   {
@@ -42,7 +42,7 @@ const PRACTICE_AREAS: PracticeArea[] = [
     paragraph:
       "Having a Blood Alcohol Concentration (BAC) of 80mg or more within two hours of operating a motor vehicle is a separate offence from the Impaired Operation of a Conveyance. It carries its own set of penalties. With extensive experience analyzing 0.08 BAC cases, Nicholas Robinson can provide the clarity and guidance you need to navigate your charges.",
     buttonLabel: "Free Case Review",
-    buttonHref: "/practice-areas/corporate-law",
+    buttonHref: "tel:6473722661",
     image: "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/c74c0944-f1fc-4820-49b1-d59563a17200/public",
   },
   {
@@ -52,7 +52,7 @@ const PRACTICE_AREAS: PracticeArea[] = [
     paragraph:
       "When impaired driving results in an injury or fatality, an individual may be charged with Impaired Operation Causing Bodily Harm or Death. Even if impairment is not proven, an individual may still be charged with Dangerous Operation Causing Bodily Harm or Death. Given the severe penalties involved, it is crucial to consult a skilled criminal lawyer who understands how to navigate these specific charges.",
     buttonLabel: "Free Case Review",
-    buttonHref: "/practice-areas/corporate-law",
+    buttonHref: "tel:6473722661",
     image: "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/0d9bc925-b40f-4daf-b855-b3d3980f2d00/public",
   },
   {
@@ -62,7 +62,7 @@ const PRACTICE_AREAS: PracticeArea[] = [
     paragraph:
       "If you hold a Commercial Driver&apos;s License (CDL), navigating a DUI charge can carry devastating implications for your professional life. For this reason, retaining legal counsel immediately who can navigate complex and technical DUI cases is integral to mitigating the damage to your career. ",
     buttonLabel: "Free Case Review",
-    buttonHref: "/practice-areas/corporate-law",
+    buttonHref: "tel:6473722661",
     image: "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/f231dc28-3126-4dcb-1eb6-b19d12d3ff00/public",
   },
   {
@@ -72,7 +72,7 @@ const PRACTICE_AREAS: PracticeArea[] = [
     paragraph:
       "Young & Novice Drivers face greater penalties if charged for an impaired driving offence. All provinces, including Ontario, have zero-tolerance laws for younger drivers. Convictions of the sort can be devastating to the future career and personal life of young drivers. Nicholas Robinson&apos;s empathetic approach ensures that those facing DUI charges are never left to navigate the system alone.",
     buttonLabel: "Free Case Review",
-    buttonHref: "/practice-areas/corporate-law",
+    buttonHref: "tel:6473722661",
     image: "https://imagedelivery.net/8au6u53Ph6mHP5o5AhlVXQ/a5a63c07-5a9f-43ac-7205-497635a31300/public",
   },
 ];
