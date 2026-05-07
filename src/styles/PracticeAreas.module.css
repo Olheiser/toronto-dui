@@ -1,0 +1,402 @@
+/* =============================================================================
+   PracticeAreas.module.css
+   Color scheme: deep charcoal bg, #bb0000 accent, no blue
+   ============================================================================= */
+
+/* ── Tokens ──────────────────────────────────────────────────────────────────── */
+:root {
+  --pa-bg:            #1a1a1a;   /* deep charcoal — section background           */
+  --pa-surface:       #242424;   /* same as bg — accordion triggers (no contrast)*/
+  --pa-surface-hover: #2d2d2d;   /* subtle hover state for accordion triggers    */
+  --pa-border:        rgba(255, 255, 255, 0.07);
+  --pa-red:           #bb0000;   /* primary accent                               */
+  --pa-red-hover:     #d40000;   /* slightly brighter for hover states           */
+  --pa-text-primary:  #f0ece4;
+  --pa-text-muted:    #e8e4df;
+  --pa-text-subtle:   #5e5a56;
+  --pa-max-width:     1700px;    /* section max-width for ultra-wide screens     */
+  --pa-thumb-height:  260px;
+  --pa-featured-height: min-height;
+  --pa-transition:    0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --pa-font-serif:    "Optima Nova LT", "Times New Roman", serif;
+  --pa-font-sans:     "Roboto", Helvetica, Arial, sans-serif;
+}
+
+/* ── Responsive visibility ───────────────────────────────────────────────────── */
+.desktop-only { display: none; }
+.mobile-only  { display: block; }
+
+@media (min-width: 900px) {
+  .desktop-only { display: block; }
+  .mobile-only  { display: none; }
+}
+
+/* =============================================================================
+   Shared Section Header (desktop + mobile)
+   ============================================================================= */
+
+.section-header {
+  padding: 52px 0 36px;
+}
+
+/* Red decorative rule above H2 */
+.header-rule {
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: var(--pa-red);
+  margin-bottom: 20px;
+}
+
+.section-h2 {
+  font-family: var(--pa-font-serif);
+  font-size: clamp(28px, 3vw, 44px);
+  font-weight: 400;
+  color: var(--pa-text-primary);
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  margin: 0 0 10px;
+}
+
+.section-h3 {
+  font-family: var(--pa-font-sans);
+  font-size: clamp(14px, 1vw, 16px);
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--pa-red);
+  margin: 0;
+}
+
+/* =============================================================================
+   Desktop Section
+   ============================================================================= */
+
+.pa-section {
+  background: var(--pa-bg);
+  width: 100%;
+}
+
+/* Centered inner wrapper for max-width containment */
+.pa-inner {
+  max-width: var(--pa-max-width);
+  margin: 0 auto;
+  padding: 0 60px 60px;
+}
+
+/* ── Thumbnail Rows ───────────────────────────────────────────────────────────── */
+.thumb-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.thumbnail-btn {
+  position: relative;
+  height: var(--pa-thumb-height);
+  overflow: hidden;
+  border: none;
+  border-right: 1px solid var(--pa-border);
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+.thumbnail-btn:last-child { border-right: none; }
+
+.thumb-img {
+  object-fit: cover;
+  transition: transform var(--pa-transition), filter var(--pa-transition);
+  filter: brightness(0.45) saturate(0.6);
+}
+
+.thumb-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(26, 26, 26, 0.88) 0%,
+    rgba(26, 26, 26, 0.15) 100%
+  );
+  transition: opacity var(--pa-transition);
+  pointer-events: none;
+}
+
+.thumb-title {
+  position: absolute;
+  bottom: 22px;
+  left: 24px;
+  right: 24px;
+  font-family: var(--pa-font-serif);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--pa-text-primary);
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+  text-align: left;
+  transition: color var(--pa-transition);
+  z-index: 2;
+}
+
+/* Bottom border bar — red when active */
+.thumb-active-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--pa-red);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform var(--pa-transition);
+  z-index: 3;
+}
+
+/* ── Thumbnail hover ─────────────────────────────────────────────────────────── */
+.thumbnail-btn:hover .thumb-img {
+  filter: brightness(0.58) saturate(0.75);
+  transform: scale(1.03);
+}
+.thumbnail-btn:hover .thumb-title {
+  color: var(--pa-red);
+}
+
+/* ── Thumbnail active ────────────────────────────────────────────────────────── */
+.thumbnail-btn.is-active .thumb-img {
+  filter: brightness(0.72) saturate(0.9);
+  transform: scale(1.04);
+}
+.thumbnail-btn.is-active .thumb-overlay { opacity: 0.45; }
+.thumbnail-btn.is-active .thumb-title   { color: var(--pa-red); }
+.thumbnail-btn.is-active .thumb-active-bar { transform: scaleX(1); }
+
+/* ── Featured Row ─────────────────────────────────────────────────────────────── */
+
+/*
+  .featured-row-wrap
+  ──────────────────
+  Uncomment `padding` below to add vertical breathing room above/below the
+  featured panel. Leave commented to keep the rows flush with the thumbnails.
+*/
+.featured-row-wrap {
+  /* padding: 32px 0; */
+}
+
+.featured-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: var(--pa-featured-height);
+  border-top: 1px solid var(--pa-border);
+  border-bottom: 1px solid var(--pa-border);
+}
+
+.featured-image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-img {
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.featured-row:hover .featured-img { transform: scale(1.02); }
+
+.featured-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(26, 26, 26, 0) 55%,
+    var(--pa-bg) 100%
+  );
+  pointer-events: none;
+}
+
+.featured-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 56px 64px 56px 52px;
+  background: var(--pa-bg);
+}
+
+.featured-practice-label {
+  font-family: var(--pa-font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--pa-red);
+  margin: 0 0 14px;
+}
+
+/* area.heading is red */
+.featured-heading {
+  font-family: var(--pa-font-serif);
+  font-size: clamp(20px, 2vw, 30px);
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.3;
+  margin: 0 0 18px;
+  letter-spacing: -0.01em;
+}
+
+.featured-paragraph {
+  font-family: var(--pa-font-sans);
+  font-size: 18px;
+  line-height: 1.78;
+  color: var(--pa-text-muted);
+  margin: 0 0 30px;
+  max-width: 70ch;
+}
+
+/* ── Button (shared desktop + mobile) ───────────────────────────────────────── */
+.featured-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--pa-font-sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: var(--pa-red);
+  padding: 14px 28px;
+  text-decoration: none;
+  align-self: flex-start;
+  transition:
+    background var(--pa-transition),
+    gap var(--pa-transition);
+}
+.featured-btn:hover {
+  background: var(--pa-red-hover);
+  gap: 16px;
+}
+.btn-arrow {
+  font-size: 16px;
+  line-height: 1;
+  transition: transform var(--pa-transition);
+}
+.featured-btn:hover .btn-arrow { transform: translateX(3px); }
+
+/* =============================================================================
+   Mobile / Accordion Section
+   ============================================================================= */
+
+.pa-section-mobile {
+  background: var(--pa-bg);
+  width: 100%;
+}
+
+/* Shared header gets side padding on mobile */
+.pa-section-mobile .section-header {
+  padding: 40px 20px 28px;
+}
+
+/* ── Accordion List ───────────────────────────────────────────────────────────── */
+.accordion-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--pa-border);
+}
+
+.accordion-item {
+  border-bottom: 1px solid var(--pa-border);
+}
+
+/* ── Accordion Trigger ─────────────────────────────────────────────────────── */
+.accordion-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px 20px;
+  background: var(--pa-surface);
+  border: none;
+  cursor: pointer;
+  transition: background var(--pa-transition);
+  text-align: left;
+}
+.accordion-trigger:hover,
+.accordion-item.is-open .accordion-trigger {
+  background: var(--pa-surface-hover);
+}
+
+.accordion-title {
+  font-family: var(--pa-font-serif);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--pa-text-primary);
+  letter-spacing: 0.01em;
+  transition: color var(--pa-transition);
+}
+.accordion-item.is-open .accordion-title { color: var(--pa-red); }
+
+.accordion-icon {
+  color: var(--pa-text-muted);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  transition: transform var(--pa-transition), color var(--pa-transition);
+}
+.accordion-icon.rotated {
+  transform: rotate(180deg);
+  color: var(--pa-red);
+}
+
+/* ── Accordion Body ─────────────────────────────────────────────────────────── */
+.accordion-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+.accordion-item.is-open .accordion-body { grid-template-rows: 1fr; }
+
+/* Inner wrapper required for the grid-template-rows animation */
+.accordion-body > div { min-height: 0; overflow: hidden; }
+
+.accordion-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+.accordion-img {
+  object-fit: cover;
+  filter: brightness(0.68) saturate(0.8);
+}
+.accordion-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(26, 26, 26, 0.72) 100%
+  );
+}
+
+.accordion-content {
+  padding: 24px 20px 32px;
+  background: var(--pa-bg);
+}
+
+/* area.heading is red on mobile too */
+.accordion-heading {
+  font-family: var(--pa-font-serif);
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.35;
+  margin: 0 0 12px;
+}
+
+.accordion-paragraph {
+  font-family: var(--pa-font-sans);
+  font-size: 18px;
+  line-height: 1.78;
+  color: var(--pa-text-muted);
+  margin: 0 0 28px;
+}
