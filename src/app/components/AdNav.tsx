@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from "@/styles/AdHdrFtr.module.css";
 //import adStyles from "@/styles/AdHdrFtr.module.css";
 import logo from "../../../public/toronto-criminal-lawyer.webp";
+import reviewBadge from "../../../public/review-widget.png";
 import cbc from "../../../public/cbc-logo.png";
 import globalNews from "../../../public/global-news-logo-white.png"
 import Link from "next/link";
@@ -51,6 +52,12 @@ const AdNav = () => {
                                 height={75}
                                 className={styles.newsLogo}
                             /></a>
+                            <Image 
+                                src={reviewBadge}
+                                alt="Google Review Badge"
+                                height={75}
+                                className={styles.newsLogo}
+                            />
                         </div>
                         
                     </div>

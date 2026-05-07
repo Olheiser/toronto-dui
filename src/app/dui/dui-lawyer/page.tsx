@@ -12,6 +12,7 @@ import logo from "../../../../public/logo-white-type.png";
 import pro from "../../../../public/professional.jpg";
 import AdForm from "@/app/components/AdForm";
 import ctaImage from "../../../../public/cta-row.avif";
+import Script from 'next/script';
 // test
 import type { Metadata } from "next";  // ← Keep this one only
 
@@ -210,6 +211,10 @@ export default function Page() {
             </div>
         </section>
     
+<div className={"carouselContainer"}>
+  <div className={"elfsight-app-11c0d24a-bee0-4111-9923-f788032a3aa5"} data-elfsight-app-lazy></div>
+</div>
+
 
         <section className={styles.contactSection}>
       <div className={styles.contactOverlay}>
@@ -239,6 +244,11 @@ export default function Page() {
         </div>
       </div>
     </section>
+    <Script
+        src="https://elfsightcdn.com/platform.js"
+        async
+        strategy="lazyOnload" // Loads after page is interactive
+      />
         </>
     )
 }
