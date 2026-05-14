@@ -105,14 +105,6 @@ const AdForm = () => {
             />
 
             <input 
-                type="text" 
-                name="subject" 
-                id="subject" 
-                required 
-                placeholder="Subject..." 
-            />
-
-            <input 
                 type="tel" 
                 name="phone" 
                 id="phone" 
