@@ -19,7 +19,7 @@ const AdForm = () => {
 
     const form = useRef<HTMLFormElement | null>(null);
 
-    const LAWMATICS_URL = 'https://api.lawmatics.com/v1/forms/54dcc182-67a8-4bb9-8592-d2ce6815e1f9/submit';
+    const LAWMATICS_URL = 'https://api.lawmatics.com/v1/forms/fdf916e9-f322-454d-b91d-a49ce08b7f15/submit';
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
